@@ -3,15 +3,12 @@
 @import url(./section-css/sectionset.css);
 @import url(./footer-css/footerset.css);
 
-
-
 @font-face {
   font-family: irankeywan;
   src: url(/fonts/irankeywan/IRANYekanWeb-Bold.eot);
-
-
+}
 @font-face {
   font-family: shabnam;
-  src: url(/fonts/shabnam/Shabnam-Medium.eot);
 
+  src: url(/fonts/shabnam/Shabnam-Medium.eot);
 }
