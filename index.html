@@ -1,0 +1,2240 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/swiper/swiper-element-bundle.min.css"
+    />
+    <style>
+      html,
+      body {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <title>digikala</title>
+  </head>
+  <body>
+    <main>
+      <header id="top-page">
+        <a href="#">
+          <div class="headban">
+            <img
+              src="./image/header/680e4009599fb2c7374d4d0e404b9df654ef06ee_1683453766.jpg"
+              alt="header-banner"
+            />
+          </div>
+        </a>
+        <div class="headbar">
+          <div class="headlogo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="115"
+              height="30"
+              viewBox="0 0 115 30"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <g fill="#EE384E">
+                  <g>
+                    <g>
+                      <path
+                        d="M76.916 19.024h6.72v-8.78h-6.72c-1.16 0-2.24 1.061-2.24 2.195v4.39c0 1.134 1.08 2.195 2.24 2.195zm26.883 0h6.72v-8.78h-6.72c-1.16 0-2.24 1.061-2.24 2.195v4.39c0 1.134 1.08 2.195 2.24 2.195zM88.117 6.951v15.366c0 .484-.625 1.098-1.12 1.098l-2.24.023c-.496 0-1.12-.637-1.12-1.12v-.733l-1.017 1.196c-.31.413-1.074.634-1.597.634h-4.107c-3.604 0-6.721-3.063-6.721-6.586v-4.39c0-3.523 3.117-6.585 6.72-6.585h10.082c.495 0 1.12.613 1.12 1.097zm26.883 0v15.366c0 .484-.624 1.098-1.12 1.098l-2.24.023c-.496 0-1.12-.637-1.12-1.12v-.733l-1.017 1.196c-.31.413-1.074.634-1.597.634h-4.107c-3.604 0-6.721-3.063-6.721-6.586v-4.39c0-3.523 3.117-6.585 6.72-6.585h10.082c.495 0 1.12.613 1.12 1.097zm-74.675 3.293h-6.721c-1.16 0-2.24 1.061-2.24 2.195v4.39c0 1.134 1.08 2.195 2.24 2.195h6.72v-8.78zm4.48-3.293V23.78c0 3.523-3.117 6.22-6.72 6.22H34.62c-.515 0-1-.236-1.311-.638l-1.972-2.55c-.327-.424-.144-1.202.399-1.202h6.347c1.16 0 2.24-.696 2.24-1.83v-.365h-6.72c-3.604 0-6.72-3.063-6.72-6.586v-4.39c0-3.523 3.116-6.585 6.72-6.585h4.107c.514 0 1.074.405 1.437.731l1.177 1.098V6.95c0-.483.625-1.097 1.12-1.097h2.24c.496 0 1.12.613 1.12 1.097zM4.481 16.83c0 1.134 1.08 2.195 2.24 2.195h6.72v-8.78h-6.72c-1.16 0-2.24 1.061-2.24 2.195v4.39zM16.8 0c.497 0 1.121.613 1.121 1.098v21.22c0 .483-.624 1.097-1.12 1.097h-2.24c-.496 0-1.12-.613-1.12-1.098v-.732l-1.175 1.232c-.318.346-.932.598-1.44.598H6.722C3.117 23.415 0 20.352 0 16.829v-4.356c0-3.523 3.117-6.62 6.72-6.62h6.722V1.099c0-.485.624-1.098 1.12-1.098h2.24zm46.3 14.634L69.336 6.9c.347-.421.04-1.048-.513-1.048h-3.566c-.27 0-.525.119-.696.323l-6.314 7.727V1.098c0-.485-.625-1.098-1.12-1.098h-2.24c-.496 0-1.12.613-1.12 1.098v21.22c0 .483.624 1.097 1.12 1.097h2.24c.495 0 1.12-.614 1.12-1.098v-6.951l6.317 7.744c.17.207.428.328.7.328h3.562c.554 0 .86-.627.514-1.048l-6.24-7.756zM48.166 0c-.496 0-1.12.613-1.12 1.098v2.195c0 .484.624 1.097 1.12 1.097h2.24c.495 0 1.12-.613 1.12-1.097V1.098c0-.485-.625-1.098-1.12-1.098h-2.24zm0 5.854c-.496 0-1.12.613-1.12 1.097v15.366c0 .484.8 1.12 1.295 1.12l2.065-.022c.495 0 1.12-.614 1.12-1.098V6.951c0-.484-.625-1.097-1.12-1.097h-2.24zM21.282 0c-.495 0-1.12.613-1.12 1.098v2.195c0 .484.625 1.097 1.12 1.097h2.24c.496 0 1.12-.613 1.12-1.097V1.098c0-.485-.624-1.098-1.12-1.098h-2.24zm0 5.854c-.495 0-1.12.613-1.12 1.097v15.366c0 .484.625 1.098 1.12 1.098h2.24c.496 0 1.12-.614 1.12-1.098V6.951c0-.484-.624-1.097-1.12-1.097h-2.24zm73.556-4.756v21.22c0 .483-.625 1.097-1.12 1.097h-2.24c-.496 0-1.12-.614-1.12-1.098V1.097c0-.484.624-1.097 1.12-1.097h2.24c.495 0 1.12.613 1.12 1.098z"
+                        transform="translate(-1235 -19) translate(-238) translate(1473 19)"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="searchbar">
+            <form action="#">
+              <div class="searchbar-input">
+                <a href="https://www.digikala.com/">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <input type="text" placeholder=" جستجو" />
+              </div>
+            </form>
+          </div>
+
+          <div class="headlogin">
+            <a href="#">
+              <div class="loginbuttom">
+                <p>
+                  <i
+                    class="fa-sharp fa-solid fa-right-to-bracket fa-flip-horizontal"
+                  ></i>
+                  ورود | ثبت‌ نام
+                </p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="carticon">
+                <i
+                  class="fa-sharp fa-solid fa-cart-shopping fa-flip-horizontal"
+                ></i>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="headmenu">
+          <div class="megamenu">
+            <nav>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-bars"></i>
+                  <a href="#">دسته‌بندی‌کالاها</a>
+                  <div class="submenu">
+                    <div class="submenusec">
+                      <ul>
+                        <li>
+                          <i class="fa-solid fa-mobile"></i>
+                          <a href="#">موبایل</a>
+                          <div class="submenu-2">
+                            <div class="subtitle">همه محصولات موبایل</div>
+                            <div class="submenu-3">
+                              <div class="menutitle">برندهای مختلف گوشی موبایل</div>
+                              <div class="menutext">گوشی اپل</div>
+                              <div class="menutext">گوشی سامسونگ</div>
+                              <div class="menutext">گوشی شیائومی</div>
+                              <div class="menutext">گوشی نوکیا</div>
+                              <div class="menutext">گوشی هواوی</div>
+                              <div class="menutext">گوشی آنر</div>
+                              <div class="menutext">گوشی موتورولا</div>
+                              <div class="menutext">گوشی جی پلاس</div>
+                              <div class="menutext">گوشی وان پلاس</div>
+                              <div class="menutext">گوشی جی ال ایکس</div>
+                              <div class="menutext">گوشی بلو</div>
+                              <div class="menutext">گوشی کاترپیلار</div>
+                              <div class="menutext">گوشی ویوو</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">گوشی براساس قیمت</div>
+                              <div class="menutext">گوشی تا 2 میلیون تومان</div>
+                              <div class="menutext">گوشی تا 5 میلیون تومان</div>
+                              <div class="menutext">گوشی تا 7 میلیون تومان</div>
+                              <div class="menutext">گوشی تا 15 میلیون تومان</div>
+                              <div class="menutext">گوشی بالای 15 میلیون تومان</div>
+                              <div class="menutitle">گوشی براساس حافظه داخلی</div>
+                              <div class="menutext">گوشی تا 16 گیگابایت</div>
+                              <div class="menutext">گوشی تا 32 گیگا بایت</div>
+                              <div class="menutext">گوشی تا 64 گیگابایت</div>
+                              <div class="menutext">گوشی تا 128 گیگابایت</div>
+                              <div class="menutext">گوشی تا 256 گیگابایت</div>
+                              <div class="menutext">گوشی تا 1 ترابایت</div>
+                              <div class="menutitle">رزولوشن عکس</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">تا ۱۳ مگاپیکسل</div>
+                              <div class="menutext">تا ۱۶ مگاپیکسل</div>
+                              <div class="menutext">تا ۴۸ مگاپیکسل</div>
+                              <div class="menutext">تا ۶۴ مگاپیکسل</div>
+                              <div class="menutext">تا ۱۰۸ مگاپیکسل</div>
+                              <div class="menutitle">گوشی براساس کاربری</div>        
+                              <div class="menutext">گوشی اقتصادی</div>
+                              <div class="menutext">گوشی میان رده</div>
+                              <div class="menutext">گوشی دانش آموزی</div>
+                              <div class="menutext">گوشی گیمینگ</div>
+                              <div class="menutext">گوشی پرچمدار</div>
+                              <div class="menutext">گوشی ضدآب</div>
+                              <div class="menutext">گوشی مناسب عکاسی</div>
+                              <div class="menutext">گوشی 5G</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">دو سیم‌کارت</div>     
+                              <div class="menutext">Android (اندروید)</div>
+                              <div class="menutext">IOS</div>
+                              <div class="menutext">سایر سیستم عامل ها</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-laptop"></i>
+                          <a href="#">کالای دیجیتال</a>
+                          <div class="submenu-2">
+                            <div class="subtitle">همه محصولات کالای دیجیتال</div>
+                            <div class="submenu-3">
+                              <div class="menutitle">لوازم جانبی گوشی</div>
+                              <div class="menutext">کیف و کاور گوشی</div>
+                              <div class="menutext">
+                                پاور بانک (شارژر همراه)
+                              </div>
+                              <div class="menutext">پایه نگهدارنده گوشی</div>
+                              <div class="menutitle">کتابخوان فیدیبوک</div>
+                              <div class="menutitle">گوشی موبایل</div>
+                              <div class="menutext">اپل</div>
+                              <div class="menutext">سامسونگ</div>
+                              <div class="menutext">شیائومی</div>
+                              <div class="menutext">نوکیا</div>
+                              <div class="menutext">هوآوی</div>
+                              <div class="menutext">آنر</div>
+                              <div class="menutitle">کارت هدیه دیجی‌کالا</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">واقعیت مجازی</div>
+                              <div class="menutitle">مچ‌بند و ساعت هوشمند</div>
+                              <div class="menutitle">کارت هدیه الکترونیکی</div>
+                              <div class="menutitle">تلویزیون</div>
+                              <div class="menutext">جی پلاس</div>
+                              <div class="menutext">ایکس‌ ویژن</div>
+                              <div class="menutext">دوو</div>
+                              <div class="menutext">اسنوا</div>
+                              <div class="menutitle">هدفون، هدست، هندزفری</div>
+                              <div class="menutitle">
+                                اسپیکر بلوتوث و با سیم
+                              </div>
+                              <div class="menutitle">هارد، فلش و SSD</div>
+                              <div class="menutitle">دوربین</div>
+                              <div class="menutext">دوربین عکاسی دیجیتال</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">
+                                دوربین‌ ورزشی و فیلم برداری
+                              </div>
+                              <div class="menutext">دوربین‌ چاپ سریع</div>
+                              <div class="menutitle">لوازم جانبی دوربین</div>
+                              <div class="menutext">لنز</div>
+                              <div class="menutext">کیف</div>
+                              <div class="menutext">کارت حافظه</div>
+                              <div class="menutext">کاغذ چاپ عکس</div>
+                              <div class="menutitle">
+                                دوربین دو چشمی و شکاری
+                              </div>
+                              <div class="menutitle">تلسکوپ</div>
+                              <div class="menutitle">
+                                پلی استیشن، ایکس باکس و بازی
+                              </div>
+                              <div class="menutitle">
+                                کامپیوتر و تجهیزات جانبی
+                              </div>
+                              <div class="menutext">تجهیزات مخصوص بازی</div>
+                              <div class="menutext">مانیتور</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">کیس‌های اسمبل شده</div>
+                              <div class="menutext">قطعات داخلی کامپیوتر</div>
+                              <div class="menutext">ماوس</div>
+                              <div class="menutext">کیبورد</div>
+                              <div class="menutitle">لپ تاپ</div>
+                              <div class="menutitle">لوازم جانبی لپ تاپ</div>
+                              <div class="menutext">کیف، کوله و کاور</div>
+                              <div class="menutext">کابل‌ صدا، AUX و HDMI</div>
+                              <div class="menutitle">تبلت</div>
+                              <div class="menutitle">شارژر تبلت و موبایل</div>
+                              <div class="menutitle">
+                                کیف، کاور، لوازم جانبی تبلت
+                              </div>
+                              <div class="menutitle">باتری</div>
+                              <div class="menutitle">دوربین‌های تحت شبکه</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">مودم و تجهیزات شبکه</div>
+                              <div class="menutitle">ماشین های اداری</div>
+                              <div class="menutext">تلفن، بی سیم و سانترال</div>
+                              <div class="menutext">فکس</div>
+                              <div class="menutext">پرینتر</div>
+                              <div class="menutext">لوازم جانبی اداری</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-house"></i>
+                          <a href="#">خانه و اشپزخانه</a>
+                          <div class="submenu-2">
+                            <div class="subtitle">همه محصولات خانه و اشپزخانه</div>
+                            <div class="submenu-3">
+                              <div class="menutitle">تلویزیون</div>
+                              <div class="menutext">ایکس‌ویژن</div>
+                              <div class="menutext">جی‌پلاس</div>
+                              <div class="menutext">دوو</div>
+                              <div class="menutitle">یخچال و فریزر</div>
+                              <div class="menutext">امرسان</div>
+                              <div class="menutext">ایستکول</div>
+                              <div class="menutitle">دکوراتیو</div>
+                              <div class="menutext">مبلمان خانگی</div>
+                              <div class="menutext">دکوراسیون اداری</div>
+                              <div class="menutext">آینه</div>
+                              <div class="menutext">پرده</div>
+                              <div class="menutext">تابلو</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">ساعت دیواری و رومیزی</div>
+                              <div class="menutitle">شمع، گل و گلدان</div>
+                              <div class="menutitle">
+                                فرش ماشینی، دستبافت، تابلو
+                              </div>
+                              <div class="menutext">لوازم برقی خانگی</div>
+                              <div class="menutext">ماشین لباسشویی</div>
+                              <div class="menutext">ماشین ظرفشویی</div>
+                              <div class="menutext">هود</div>
+                              <div class="menutext">گاز صفحه ای</div>
+                              <div class="menutext">اجاق گاز</div>
+                              <div class="menutext">مایکروویو، مایکروفر</div>
+                              <div class="menutext">فر</div>
+                              <div class="menutext">جاروبرقی</div>
+                              <div class="menutext">جارو شارژی</div>
+                              <div class="menutext">تلفن، بی سیم و سانترال</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">کولر، پنکه، تصفیه هوا</div>
+                              <div class="menutext">
+                                قهوه و چای ساز، آب میوه گیر
+                              </div>
+                              <div class="menutitle">اتو بخار و پرسی</div>
+                              <div class="menutext">
+                                حیوانات خانگی، غذا و لوازم
+                              </div>
+                              <div class="menutitle">
+                                آکواریوم، غذا و لوازم آبزیان
+                              </div>
+                              <div class="menutext">سرو و پذیرایی</div>
+                              <div class="menutext">سرویس غذاخوری</div>
+                              <div class="menutext">قاشق، چنگال و کارد</div>
+                              <div class="menutext">
+                                پارچ، بطری، لیوان و ماگ
+                              </div>
+                              <div class="menutitle">ظروف پذیرایی</div>
+                              <div class="menutext">نور و روشنایی</div>
+                              <div class="menutext">لامپ، چراغ و ریسه</div>
+                              <div class="menutitle">لوستر و چراغ تزیینی</div>
+                              <div class="menutext">آشپزخانه</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">سرویس و ظروف پخت و پز</div>
+                              <div class="menutext">فلاسک و کلمن</div>
+                              <div class="menutext">
+                                کتری، قوری، لوازم سرو چای
+                              </div>
+                              <div class="menutitle">ظروف یکبار مصرف</div>
+                              <div class="menutext">مواد شوینده</div>
+                              <div class="menutext">شوینده ظروف</div>
+                              <div class="menutext">شوینده لباس</div>
+                              <div class="menutitle">تمیزکننده سطوح</div>
+                              <div class="menutitle">دستمال کاغذی</div>
+                              <div class="menutitle">
+                                ملحفه، سرویس، لوازم خواب
+                              </div>
+                              <div class="menutitle">حوله و وسایل حمام</div>
+                              <div class="menutitle">
+                                پادری، کمد، لوازم اتاق خواب
+                              </div>
+                              <div class="menutitle">
+                                لوازم دستشویی و روشویی
+                              </div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">فندک و لوازم جانبی</div>
+                              <div class="menutitle">
+                                گُل، خاک، کود، لوازم باغبانی
+                              </div>
+                              <div class="menutext">کولر گازی</div>
+                              <div class="menutext">جی‌پلاس</div>
+                              <div class="menutext">ایران رادیاتور</div>
+                              <div class="menutitle">هایسنس</div>
+                              <div class="menutext">کولر آبی</div>
+                              <div class="menutext">آبسال</div>
+                              <div class="menutext">برفاب</div>
+                              <div class="menutext">انرژی</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-shirt"></i>
+                          <a href="#">مد و پوشاک</a>
+                          <div class="submenu-2">
+                            <div class="subtitle">همه محصولات مد و پوشاک</div>
+                            <div class="submenu-3">
+                              <div class="menutitle">مردانه</div>
+                              <div class="menutitle">لباس مردانه</div>
+                              <div class="menutext">پلوشرت مردانه</div>
+                              <div class="menutext">پیراهن مردانه</div>
+                              <div class="menutext">شلوار</div>
+                              <div class="menutext">لباس زیر</div>
+                              <div class="menutitle">کفش مردانه</div>
+                              <div class="menutext">کفش روزمره</div>
+                              <div class="menutext">کفش رسمی</div>
+                              <div class="menutitle">اکسسوری مردانه</div>
+                              <div class="menutext">ساعت</div>
+                              <div class="menutext">کیف</div>
+                              <div class="menutext">کمربند</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">زنانه</div>
+                              <div class="menutitle">لباس زنانه</div>
+                              <div class="menutext">مانتو پانچو رویه</div>
+                              <div class="menutext">بلوز و شومیز زنانه</div>
+                              <div class="menutext">لباس راحتی زنانه</div>
+                              <div class="menutext">شلوار و سرهمی</div>
+                              <div class="menutext">لباس زیر</div>
+                              <div class="menutitle">کفش زنانه</div>
+                              <div class="menutext">کفش روزمره</div>
+                              <div class="menutext">کفش تخت</div>
+                              <div class="menutitle">اکسسوری زنانه</div>
+                              <div class="menutext">ساعت</div>
+                              <div class="menutext">کیف</div>
+                              <div class="menutext">شال و روسری</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">طلا</div>
+                              <div class="menutext">زیورآلات طلا زنانه</div>
+                              <div class="menutext">زیورآلات طلا مردانه</div>
+                              <div class="menutext">زیورآلات طلا بچگانه</div>
+                              <div class="menutitle">زیورآلات زنانه</div>
+                              <div class="menutext">دستبند</div>
+                              <div class="menutext">گوشواره</div>
+                              <div class="menutext">گردنبند</div>
+                              <div class="menutitle">زیورآلات نقره زنانه</div>
+                              <div class="menutitle">عینک آفتابی زنانه</div>
+                              <div class="menutitle">عینک آفتابی مردانه</div>
+                              <div class="menutitle">پوشاک ورزشی مردانه</div>
+                              <div class="menutitle">پوشاک ورزشی زنانه</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">کفش ورزشی مردانه</div>
+                              <div class="menutitle">کفش ورزشی زنانه</div>
+                              <div class="menutitle">پوشاک ورزشی پسرانه</div>
+                              <div class="menutitle">پوشاک ورزشی دخترانه</div>
+                              <div class="menutitle">کفش ورزشی پسرانه</div>
+                              <div class="menutitle">کفش ورزشی دخترانه</div>
+                              <div class="menutitle">کوله پشتی مردانه</div>
+                              <div class="menutitle">بچه گانه</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-bowl-food"></i>
+                          <a href="#">کالاهای سوپرمارکتی</a>
+                          <div class="submenu-2">
+                            <div class="subtitle">همه محصولات کالاهای سوپرمارکتی</div>
+                            <div class="submenu-3">
+                              <div class="menutitle">
+                                کالای اساسی و خوار و بار
+                              </div>
+                              <div class="menutext">نان</div>
+                              <div class="menutext">برنج</div>
+                              <div class="menutext">روغن</div>
+                              <div class="menutext">قند</div>
+                              <div class="menutext">شکر</div>
+                              <div class="menutext">سس</div>
+                              <div class="menutext">رب و کنسرو گوجه</div>
+                              <div class="menutext">خیارشور و ترشیجات</div>
+                              <div class="menutext">آبلیمو، آبغوره و سرکه</div>
+                              <div class="menutext">ماکارونی، پاستا و رشته</div>
+                              <div class="menutext">
+                                زعفران، زرشک و تزیینات غذا
+                              </div>
+                              <div class="menutext">حبوبات و سویا</div>
+                              <div class="menutitle">صبحانه</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">مربا</div>
+                              <div class="menutext">عسل</div>
+                              <div class="menutext">حلواشکری، ارده و کنجد</div>
+                              <div class="menutitle">مواد پروتئینی</div>
+                              <div class="menutext">سوسیس و کالباس</div>
+                              <div class="menutext">گوشت گوسفندی</div>
+                              <div class="menutext">گوشت مرغ</div>
+                              <div class="menutext">تخم مرغ</div>
+                              <div class="menutext">گوشت گاو و گوساله</div>
+                              <div class="menutext">میگو</div>
+                              <div class="menutext">ماهی</div>
+                              <div class="menutext">تن ماهی</div>
+                              <div class="menutitle">لبنیات</div>
+                              <div class="menutext">شیر</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">ماست</div>
+                              <div class="menutext">پنیر</div>
+                              <div class="menutext">خامه</div>
+                              <div class="menutitle">نوشیدنی ها</div>
+                              <div class="menutext">چای</div>
+                              <div class="menutext">دمنوش</div>
+                              <div class="menutext">قهوه</div>
+                              <div class="menutext">آب و آب معدنی</div>
+                              <div class="menutext">ماءالشعیر</div>
+                              <div class="menutext">نوشابه</div>
+                              <div class="menutext">شربت و آبمیوه</div>
+                              <div class="menutitle">میوه و سبزی</div>
+                              <div class="menutitle">غذای آماده و نودل</div>
+                              <div class="menutitle">فرآورده‌های منجمد</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">کنسرو و کمپوت</div>
+                              <div class="menutitle">تنقلات</div>
+                              <div class="menutext">شکلات، تافی و آبنبات</div>
+                              <div class="menutext">بیسکویت و ویفر</div>
+                              <div class="menutext">مغز طعم‌دار خشکبار</div>
+                              <div class="menutext">کیک و کلوچه</div>
+                              <div class="menutext">چیپس و پاپ کورن</div>
+                              <div class="menutext">پفک و اسنک</div>
+                              <div class="menutext">آدامس و خوشبوکننده</div>
+                              <div class="menutitle">خشکبار و شیرینی</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-book"></i>
+                          <a href="#">کتاب،لوازم تحریر و هنر</a>
+                          <div class="submenu-2">
+                            <div class="subtitle">همه محصولات کتاب،لوازم تحریر و هنر</div>
+                            <div class="submenu-3">
+                              <div class="menutitle">کتاب و مجله</div>
+                              <div class="menutext">کتاب چاپی</div>
+                              <div class="menutext">مجلات خارجی و داخلی</div>
+                              <div class="menutitle">کتاب صوتی</div>
+                              <div class="menutitle">محتوای آموزشی</div>
+                              <div class="menutext">آموزش موسیقی</div>
+                              <div class="menutext">آموزش ورزش و سرگرمی</div>
+                              <div class="menutext">آموزش زبان</div>
+                              <div class="menutext">
+                                آموزش نرم افزار و کامپیوتر
+                              </div>
+                              <div class="menutitle">نرم افزار</div>
+                              <div class="menutitle">بازی کنسول و کامپیوتر</div>
+                              <div class="menutitle">
+                                فیلم سینمایی، سریال و مستند
+                              </div>
+                              <div class="menutitle">آلبوم موسیقی</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">لوازم التحریر</div>
+                              <div class="menutext">
+                                لوازم اداری و اقلام مصرفی
+                              </div>
+                              <div class="menutext">
+                                کیف، کوله پشتی و جامدادی
+                              </div>
+                              <div class="menutext">چراغ مطالعه</div>
+                              <div class="menutext">
+                                کاغذ کادو، پاکت و کارت هدیه
+                              </div>
+                              <div class="menutext">نوشت افزار</div>
+                              <div class="menutext">دفتر و کاغذ</div>
+                              <div class="menutext">خودکار و روان نویس</div>
+                              <div class="menutext">
+                                ابزار نقاشی و رنگ آمیزی
+                              </div>
+                              <div class="menutext">میز تحریر</div>
+                              <div class="menutext">آلبوم عکس</div>
+                              <div class="menutext">کاغذ چاپ و پرینتر</div>
+                              <div class="menutext">مداد و مداد رنگی</div>
+                              <div class="menutitle">آلات موسیقی</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">
+                                لوازم جانبی ادوات موسیقی
+                              </div>
+                              <div class="menutext">گیتار</div>
+                              <div class="menutext">کیبورد و ارگ</div>
+                              <div class="menutext">پیانو دیجیتال</div>
+                              <div class="menutext">درام، پرکاشن و دف</div>
+                              <div class="menutext">تجهیزات استودیویی</div>
+                              <div class="menutext">ویولن</div>
+                              <div class="menutext">
+                                فرش ماشینی، دستبافت، تابلو
+                              </div>
+                              <div class="menutitle">فرش ماشینی</div>
+                              <div class="menutext">فرش دستباف</div>
+                              <div class="menutext">تابلو فرش</div>
+                              <div class="menutitle">صنایع دستی</div>
+                              <div class="menutext">کالاهای مسی</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">سفال، سرامیک و چینی</div>
+                              <div class="menutext">کیف چرمی</div>
+                              <div class="menutext">
+                                ترمه،‌ قلمکار و دستبافت
+                              </div>
+                              <div class="menutext">
+                                خاتم، منبت، حصیری و چوبی
+                              </div>
+                              <div class="menutext">تابلو و ساعت</div>
+                              <div class="menutext">میناکاری</div>
+                              <div class="menutext">فیروزه کوبی</div>
+                              <div class="menutext">سوزن دوزی</div>
+                              <div class="menutext">محصولات استخوانی</div>
+                              <div class="menutext">
+                                جعبه و دست سازه های هنری
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-baby"></i>
+                          <a href="#">اسباب بازی، کودک و نوزاد</a>
+                          <div class="submenu-2">
+                            <div class="subtitle">همه محصولات اسباب بازی، کودک و نوزاد</div>
+                            <div class="submenu-3">
+                              <div class="menutitle">
+                                بهداشت و حمام کودک و نوزاد
+                              </div>
+                              <div class="menutext">پوشک</div>
+                              <div class="menutext">دستمال مرطوب</div>
+                              <div class="menutext">حوله</div>
+                              <div class="menutext">وان حمام نوزاد</div>
+                              <div class="menutext">مینی واش</div>
+                              <div class="menutext">شامپو کودک و نوزاد</div>
+                              <div class="menutitle">
+                                پوشاک و کفش کودک و نوزاد
+                              </div>
+                              <div class="menutext">
+                                لباس کودک و لباس نوزادی
+                              </div>
+                              <div class="menutext">کفش</div>
+                              <div class="menutext">کفش ورزشی</div>
+                              <div class="menutext">
+                                جوراب و پاپوش کودک و نوزاد
+                              </div>
+                              <div class="menutext">کلاه و پیشبند نوزاد</div>
+                              <div class="menutitle">تبلت</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">
+                                پلی استیشن، ایکس باکس و بازی
+                              </div>
+                              <div class="menutitle">اسباب بازی</div>
+                              <div class="menutext">فکری و آموزشی</div>
+                              <div class="menutext">پازل، لگو و ساختنی</div>
+                              <div class="menutext">عروسک و فیگور</div>
+                              <div class="menutext">
+                                اسپینر، ابزار شوخی و سرگرمی
+                              </div>
+                              <div class="menutext">
+                                تفنگ، تیر و لوازم بازی جنگی
+                              </div>
+                              <div class="menutitle">بازی و سرگرمی کودک</div>
+                              <div class="menutext">
+                                ماشین بازی، موتور، سه چرخه
+                              </div>
+                              <div class="menutext">دوچرخه</div>
+                              <div class="menutext">تشک بازی و پارک بازی</div>
+                              <div class="menutext">تاب و سرسره</div>
+                              <div class="menutitle">سلامت، ایمنی و مراقبت</div>
+                              <div class="menutext">تصفیه هوا</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">ترازو</div>
+                              <div class="menutext">
+                                دوربین و پیجر اتاق کودک
+                              </div>
+                              <div class="menutext">تب سنج و دماسنج</div>
+                              <div class="menutext">محافظ و ابزار ایمنی</div>
+                              <div class="menutitle">خواب کودک</div>
+                              <div class="menutext">مبلمان اتاق کودک</div>
+                              <div class="menutext">چراغ خواب کودک</div>
+                              <div class="menutext">تشک کودک</div>
+                              <div class="menutext">سرویس خواب</div>
+                              <div class="menutext">پتو</div>
+                              <div class="menutext">بالش شیردهی</div>
+                              <div class="menutitle">ملزومات گردش و سفر</div>
+                              <div class="menutext">کالسکه و کریر</div>
+                              <div class="menutext">
+                                صندلی خودرو کودک و نوزاد
+                              </div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">ساک لوازم نوزاد</div>
+                              <div class="menutext">لوازم جانبی گردش و سفر</div>
+                              <div class="menutext">آغوشی</div>
+                              <div class="menutitle">لوازم شخصی</div>
+                              <div class="menutext">پستانک و ملزومات</div>
+                              <div class="menutext">شیردوش</div>
+                              <div class="menutext">شورت آموزشی</div>
+                              <div class="menutitle">غذاخوری</div>
+                              <div class="menutext">صندلی غذاخوری</div>
+                              <div class="menutext">
+                                شیشه شیر، سرلاک، داروخوری
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-heart"></i>
+                          <a href="#">زیبایی و سلامت</a>
+                          <div class="submenu-2">
+                            <div class="subtitle">همه محصولات زیبایی و سلامت</div>
+                            <div class="submenu-3">
+                              <div class="menutitle">لوازم آرایشی</div>
+                              <div class="menutext">آرایش صورت</div>
+                              <div class="menutext">آرایش چشم</div>
+                              <div class="menutext">آرایش ابرو</div>
+                              <div class="menutext">آرایش لب</div>
+                              <div class="menutext">بهداشت و زیبایی ناخن</div>
+                              <div class="menutext">ابزار آرایشی</div>
+                              <div class="menutitle">مراقبت پوست</div>
+                              <div class="menutext">
+                                کرم مرطوب کننده و نرم کننده
+                              </div>
+                              <div class="menutext">ماسک صورت و بدن</div>
+                              <div class="menutext">پاک کننده صورت</div>
+                              <div class="menutext">تونر</div>
+                              <div class="menutext">مراقبت بدن</div>
+                              <div class="menutext">ابزار مراقبت پوست</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">مراقبت و زیبایی مو</div>
+                              <div class="menutext">شامپو و مراقبت مو</div>
+                              <div class="menutext">آرایش مو</div>
+                              <div class="menutitle">لوازم بهداشتی</div>
+                              <div class="menutext">مراقبت دهان و دندان</div>
+                              <div class="menutext">مسواک</div>
+                              <div class="menutext">خمیر دندان</div>
+                              <div class="menutext">دئودورانت و ضدتعریق</div>
+                              <div class="menutext">محصولات بهداشت جنسی</div>
+                              <div class="menutext">کاندوم</div>
+                              <div class="menutext">بهداشت و مراقبت شخصی</div>
+                              <div class="menutext">نوار بهداشتی</div>
+                              <div class="menutext">کاپ قاعدگی</div>
+                              <div class="menutext">لوازم اصلاح</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">تیغ و یدک اصلاح</div>
+                              <div class="menutitle">عطر و ادکلن</div>
+                              <div class="menutext">عطر و ادکلن زنانه</div>
+                              <div class="menutext">عطر و ادکلن مردانه</div>
+                              <div class="menutext">بادی اسپلش</div>
+                              <div class="menutext">عطر جیبی</div>
+                              <div class="menutitle">لوازم شخصی برقی</div>
+                              <div class="menutext">سشوار</div>
+                              <div class="menutext">اتو و حالت دهنده مو</div>
+                              <div class="menutext">اصلاح موی صورت</div>
+                              <div class="menutext">اصلاح موی سر</div>
+                              <div class="menutitle">ابزار سلامت</div>
+                              <div class="menutext">ماساژور</div>
+                              <div class="menutext">ترازو</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">
+                                دستگاه بخور و رطوبت ساز
+                              </div>
+                              <div class="menutext">فشارسنج</div>
+                              <div class="menutext">تست قند خون</div>
+                              <div class="menutext">ویلچر</div>
+                              <div class="menutext">ساپورت های طبی</div>
+                              <div class="menutext">دستکش‌های طبی</div>
+                              <div class="menutext">تزریقات</div>
+                              <div class="menutext">مکمل دارویی</div>
+                              <div class="menutext">
+                                مکمل ورزشی و تناسب اندام
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-baseball-bat-ball"></i>
+                          <a href="#">ورزش و سفر</a>
+                          <div class="submenu-2">
+                            <div class="subtitle">همه محصولات ورزش و سفر</div>
+                            <div class="submenu-3">
+                              <div class="menutitle">پوشاک ورزشی مردانه</div>
+                              <div class="menutitle">پوشاک ورزشی زنانه</div>
+                              <div class="menutitle">کفش ورزشی مردانه</div>
+                              <div class="menutitle">کفش ورزشی زنانه</div>
+                              <div class="menutitle">پوشاک ورزشی پسرانه</div>
+                              <div class="menutitle">پوشاک ورزشی دخترانه</div>
+                              <div class="menutitle">کفش ورزشی پسرانه</div>
+                              <div class="menutitle">کفش ورزشی دخترانه</div>
+                              <div class="menutitle">تجهیزات سفر</div>
+                              <div class="menutext">چمدان و ساک</div>
+                              <div class="menutext">کیف و کوله پشتی</div>
+                              <div class="menutitle">دوچرخه</div>
+                              <div class="menutext">لوازم جانبی دوچرخه</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">کوهنوردی و کمپینگ</div>
+                              <div class="menutext">کفش کوهنوردی</div>
+                              <div class="menutext">عصای کوهنوردی</div>
+                              <div class="menutext">چراغ قوه و چراغ پیشانی</div>
+                              <div class="menutext">چاقو و ابزار چند کاره</div>
+                              <div class="menutext">قمقمه و فلاسک</div>
+                              <div class="menutext">چادر</div>
+                              <div class="menutext">کیسه خواب</div>
+                              <div class="menutext">زیرانداز سفری</div>
+                              <div class="menutitle">
+                                لوازم جانبی کوهنوردی و سفر
+                              </div>
+                              <div class="menutitle">چتر</div>
+                              <div class="menutitle">ساک ورزشی</div>
+                              <div class="menutitle">قمقمه و شیکر</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">لوازم ورزشی</div>
+                              <div class="menutitle">
+                                ورزش های هوازی و بدنسازی
+                              </div>
+                              <div class="menutext">
+                                تجهیزات جانبی ایروبیک و تناسب اندام
+                              </div>
+                              <div class="menutext">دمبل</div>
+                              <div class="menutext">طناب</div>
+                              <div class="menutext">بارفیکس</div>
+                              <div class="menutext">تردمیل</div>
+                              <div class="menutext">
+                                لوازم پوششی و محافظتی ورزشی
+                              </div>
+                              <div class="menutitle">ورزش های توپی</div>
+                              <div class="menutext">توپ</div>
+                              <div class="menutext">راکت</div>
+                              <div class="menutitle">ورزش‌های آبی</div>
+                              <div class="menutitle">ورزش‌های رزمی</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">اسکوتر برقی</div>
+                              <div class="menutitle">اسکیت و اسکوتر</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-wrench"></i>
+                          <a href="#">ابزار آلات و تجهیزات</a>
+                          <div class="submenu-2">
+                            <div class="subtitle">همه محصولات ابزار آلات و تجهیزات</div>
+                            <div class="submenu-3">
+                              <div class="menutitle">ابزار برقی</div>
+                              <div class="menutext">
+                                دریل، پیچ گوشتی و آچار بکس
+                              </div>
+                              <div class="menutext">فرز و سنگ رومیزی</div>
+                              <div class="menutext">موتور برق</div>
+                              <div class="menutext">مکنده - دمنده</div>
+                              <div class="menutext">جاروبرقی صنعتی</div>
+                              <div class="menutext">کارواش</div>
+                              <div class="menutext">دستگاه جوش</div>
+                              <div class="menutext">هویه</div>
+                              <div class="menutext">ابزار برش و تراشکاری</div>
+                              <div class="menutext">کمپرسور هوا</div>
+                              <div class="menutext">مولتی متر</div>
+                              <div class="menutext">
+                                لوازم جانبی و یدکی ابزار برقی
+                              </div>
+                              <div class="menutext">اره زنجیری</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">ابزار غیربرقی</div>
+                              <div class="menutext">ابزار دستی</div>
+                              <div class="menutext">مجموعه ابزار</div>
+                              <div class="menutext">نردبان</div>
+                              <div class="menutext">پیچ گوشتی و فازمتر</div>
+                              <div class="menutext">نظم دهنده ابزار</div>
+                              <div class="menutext">
+                                متر، تراز، اندازه‌گیری دقیق
+                              </div>
+                              <div class="menutext">لوازم روانکاری</div>
+                              <div class="menutext">چسب صنعتی</div>
+                              <div class="menutext">انواع آچار و انبر</div>
+                              <div class="menutext">
+                                پیچ و مهره، رول پلاک، میخ و پرچ
+                              </div>
+                              <div class="menutext">مته و سری</div>
+                              <div class="menutext">اره</div>
+                              <div class="menutext">لوازم بسته بندی</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">
+                                لوازم الکتریکی و یراق آلات ساختمانی
+                              </div>
+                              <div class="menutext">شیرآلات</div>
+                              <div class="menutext">رنگ</div>
+                              <div class="menutext">دستگیره در و یراق آلات</div>
+                              <div class="menutext">لوازم الکتریکی</div>
+                              <div class="menutext">مصالح ساختمانی</div>
+                              <div class="menutext">زنگ و در بازکن</div>
+                              <div class="menutitle">
+                                لوازم باغبانی و کشاورزی
+                              </div>
+                              <div class="menutext">ابزارآلات باغبانی</div>
+                              <div class="menutext">ادوات کشاورزی</div>
+                              <div class="menutext">بذر و تخم گیاهان</div>
+                              <div class="menutext">خاک، کود و آفت کش</div>
+                              <div class="menutext">کاشت و پرورش گیاه</div>
+                              <div class="menutitle">تجهیرات ایمنی و کار</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">ماسک تنفسی</div>
+                              <div class="menutext">لوازم آتش‌نشانی</div>
+                              <div class="menutext">لوازم ایمنی و کار</div>
+                              <div class="menutext">جعبه کمک‌های اولیه</div>
+                              <div class="menutext">برچسب و علائم ایمنی</div>
+                              <div class="menutext">
+                                تجهیزات کنترل محیط و آزمایشگاه
+                              </div>
+                              <div class="menutitle">حفاظتی و امنیتی</div>
+                              <div class="menutext">گاوصندوق</div>
+                              <div class="menutext">قفل</div>
+                              <div class="menutitle">
+                                دستگاه های حمل و بالابر صنعتی
+                              </div>
+                              <div class="menutext">
+                                قطعات یدکی ماشین آلات صنعتی
+                              </div>
+                              <div class="menutext">تجهیزات کارگاهی</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-car"></i>
+                          <a href="#">خودرو و موتورسیکلت</a>
+                          <div class="submenu-2">
+                            <div class="subtitle">همه محصولات خودرو و موتورسیکلت</div>
+                            <div class="submenu-3">
+                              <div class="menutitle">خودرو</div>
+                              <div class="menutitle">موتورسیکلت</div>
+                              <div class="menutitle">لوازم مصرفی خودرو</div>
+                              <div class="menutext">روغن موتور</div>
+                              <div class="menutext">فیلترها</div>
+                              <div class="menutext">قطعات سرویسی</div>
+                              <div class="menutext">روغن گیرکبس</div>
+                              <div class="menutext">روغن هیدرولیک</div>
+                              <div class="menutext">ضدیخ و آب رادیاتور</div>
+                              <div class="menutext">باتری</div>
+                              <div class="menutext">لاستیک</div>
+                              <div class="menutext">مکمل سوخت و روغن</div>
+                              <div class="menutext">واکس و پولیش</div>
+                              <div class="menutext">لوازم نظافت خودرو</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">لوازم یدکی خودرو</div>
+                              <div class="menutext">لوازم بدنه</div>
+                              <div class="menutext">چراغ</div>
+                              <div class="menutext">آینه جانبی</div>
+                              <div class="menutext">لوازم جلوبندی و تعلیق</div>
+                              <div class="menutext">لوازم الکترونیکی</div>
+                              <div class="menutext">لوازم مکانیکی</div>
+                              <div class="menutitle">لوازم صوتی و تصویری</div>
+                              <div class="menutext">دستگاه پخش</div>
+                              <div class="menutext">بلندگو</div>
+                              <div class="menutext">آمپلی فایر</div>
+                              <div class="menutext">اف ام پلیر</div>
+                              <div class="menutext">مسیریاب خودرو</div>
+                              <div class="menutext">
+                                لوازم جانبی صوتی و تصویری
+                              </div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">لوازم جانبی خودرو</div>
+                              <div class="menutext">روکش صندلی</div>
+                              <div class="menutext">کفپوش خودرو</div>
+                              <div class="menutext">کفپوش صندوق خودرو</div>
+                              <div class="menutext">
+                                عایق کاپوت، صندوق و دربها
+                              </div>
+                              <div class="menutext">تجهیزات نظم دهنده</div>
+                              <div class="menutext">تجهیزات راحتی سرنشین</div>
+                              <div class="menutext">چادر خودرو</div>
+                              <div class="menutext">لوازم تزئینی خودرو</div>
+                              <div class="menutext">لوازم ضد سرقت</div>
+                              <div class="menutext">لامپ</div>
+                              <div class="menutext">سر دنده</div>
+                              <div class="menutext">سر اگزوز</div>
+                              <div class="menutext">باربند</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">
+                                خوشبوکننده و تصفیه کننده هوای کابین
+                              </div>
+                              <div class="menutext">جاسوئیچی</div>
+                              <div class="menutext">انواع جک</div>
+                              <div class="menutext">تیونینگ و تقویت موتور</div>
+                              <div class="menutext">تجهیزات آفرود</div>
+                              <div class="menutext">سایر لوازم جانبی</div>
+                              <div class="menutext">لوازم موتورسیکلت</div>
+                              <div class="menutitle">لوازم مصرفی</div>
+                              <div class="menutext">لوازم یدکی</div>
+                              <div class="menutext">لوازم جانبی</div>
+                              <div class="menutext">لوازم ضد سرقت</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-wheat-awn"></i>
+                          <a href="#">محصولات بومی و محلی</a>
+                          <div class="submenu-2">
+                            <div class="subtitle">همه محصولات بومی و محلی</div>
+                            <div class="submenu-3">
+                              <div class="menutitle">خوراکی‌های بومی محلی</div>
+                              <div class="menutext">حلوا شکری، ارده و کنجد</div>
+                              <div class="menutext">خرمای محلی</div>
+                              <div class="menutext">عسل محلی</div>
+                              <div class="menutext">عرقیات و گلاب اصیل</div>
+                              <div class="menutext">ادویه و چاشنی محلی</div>
+                              <div class="menutext">چای محلی</div>
+                              <div class="menutext">زعفران، زرشک و تزئینات غذا</div>
+                              <div class="menutext">سبزی خشک محلی</div>
+                              <div class="menutext">حبوبات و سویا محلی</div>
+                              <div class="menutext">قند و نبات محلی</div>
+                              <div class="menutext">ماهی تازه</div>
+                              <div class="menutext">روغن محلی</div>
+                              <div class="menutitle">خانه و کاشانه بومی محلی</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutitle">ظروف سنتی</div>
+                              <div class="menutext">کاسه و کاسه بشقاب سنتی</div>
+                              <div class="menutext">بشقاب سنتی</div>
+                              <div class="menutext">پارچ سنتی</div>
+                              <div class="menutext">لیوان سنتی</div>
+                              <div class="menutext">قندان سنتی</div>
+                              <div class="menutext">دیگ و قابلمه سنتی</div>
+                              <div class="menutext">شکلات خوری دست‌ساز</div>
+                              <div class="menutitle">ابزار آشپزخانه سنتی</div>
+                              <div class="menutext">دیس و سینی سنتی</div>
+                              <div class="menutext">تخته سرو سنتی</div>
+                              <div class="menutext">سبد دستبافت سنتی</div>
+                              <div class="menutitle">دکوراتیو سنتی</div>
+                              <div class="menutext">آویز سرپرده سنتی</div>
+                            </div>
+                            <div class="submenu-3">
+                              <div class="menutext">کیس و کاور سنتی</div>
+                              <div class="menutext">گلدان سنتی</div>
+                              <div class="menutext">مجسمه سنتی</div>
+                              <div class="menutext">چراغ خواب و آباژور</div>
+                              <div class="menutitle">خواب و حمام</div>
+                              <div class="menutext">کوسن سنتی</div>
+                              <div class="menutitle">انواع قالی و قالیچه</div>
+                              <div class="menutext">گلیم</div>
+                              <div class="menutitle">پوشیدنی‌های بومی محلی</div>
+                              <div class="menutext">پوشاک بومی و محلی</div>
+                              <div class="menutext">اکسسوری بومی و محلی</div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="headmenu-2">
+            <div class="menusec">
+              <i class="fa-solid fa-shop"></i>
+              <p>سوپر مارکت</p>
+            </div>
+            <div class="menusec">
+              <i class="fa-solid fa-fire"></i>
+              <p>پرفروش ترین ها</p>
+            </div>
+            <div class="menusec">
+              <i class="fa-solid fa-percent"></i>
+              <p>تخفیف ها و پیشنهاد ها</p>
+            </div>
+            <div class="menusec">
+              <a href="#">
+                <i class="fa-solid fa-exclamation"></i>
+                <p>شگفت انگیزها</p>
+              </a>
+            </div>
+            <div class="menusec">
+              <p>سوالی دارید؟</p>
+            </div>
+            <div class="menusec">
+              <p>در دیجی کالا بفروشید</p>
+            </div>
+          </div>
+          <div class="headcity"></div>
+          <hr />
+        </div>
+
+        <div class="headpro">
+          <a href="#">
+            <div class="headpro-2">
+              <img
+                src="./image/header/In-Story-C(4)-1683111436.jpeg"
+                alt="porduct-pic-1"
+              />
+              <p>خاطره ساز</p>
+            </div>
+            <div class="headpro-2">
+              <img
+                src="./image/header/In-Story(11)-1684147321.jpeg"
+                alt="porduct-pic-2"
+              />
+              <p>خانه ی روشن</p>
+            </div>
+            <div class="headpro-2">
+              <img
+                src="./image/header/851B3EA0-B798-4518-81A8-F5D5C371F005-1684147394.jpeg"
+                alt="porduct-pic-3"
+              />
+              <p>کادوی روشن</p>
+            </div>
+            <div class="headpro-2">
+              <img
+                src="./image/header/In-Story-C-1683111481.jpeg"
+                alt="porduct-pic-4"
+              />
+              <p>انواع صندل</p>
+            </div>
+            <div class="headpro-2">
+              <img
+                src="./image/header/In-Story(12)-1684757102.jpeg"
+                alt="porduct-pic-5"
+              />
+              <p>استایل جذاب</p>
+            </div>
+            <div class="headpro-2">
+              <img src="./image/header/In-Story.jpg" alt="porduct-pic-6" />
+              <p>دانستنی</p>
+            </div>
+            <div class="headpro-2">
+              <img src="./image/header/In-Story (2).jpg" alt="porduct-pic-7" />
+              <p>رونیکس</p>
+            </div>
+            <div class="headpro-2">
+              <img
+                src="./image/header/In-StoryC(1)-1684756783.jpeg"
+                alt="porduct-pic-8"
+              />
+              <p>افر ویژه</p>
+            </div>
+          </a>
+        </div>
+      </header>
+      <section>
+        <div class="slider">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="./image/section/slider/1b76fdc22af2d668d0613674fe00d6dfc5a63301_1684739108.jpg"
+                  alt="slider-1"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./image/section/slider/250d2c3ce84148dbf981598506e291e0a687bacb_1684581682.jpg"
+                  alt="slider-2"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./image/section/slider/2c7f19bc3904800a0bfe3a3d543a851eac280276_1684908448.jpg"
+                  alt="slider-3"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./image/section/slider/7eaab01ffb911ec326bd0ad909d96f1043c186d8_1684846758.gif"
+                  alt="slider-4"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./image/section/slider/cf23387c628de5d0d782457c72c6e792804131c2_1684852175.jpg"
+                  alt="slider-5"
+                />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="prosec">
+          <div class="prosec-2">
+            <img
+              src="./image/section/product-sec/d0dc31c892be8cf1408e4e14580b3f479da66bd1_1648897133.png"
+              alt="prosec-1"
+            />
+            <p>دیجی کالا جت</p>
+          </div>
+          <div class="prosec-2">
+            <img
+              src="./image/section/product-sec/625d8883f37944f3f0c4af5fe39435600931ab22_1664309850.png"
+              alt="prosec-2"
+            />
+            <p>حراج استایل</p>
+          </div>
+          <div class="prosec-2">
+            <img
+              src="./image/section/product-sec/ac127167132653d14c758748b07824a6a7643a31_1663444619.png"
+              alt="prosec-3"
+            />
+            <p>خرید اقساطی</p>
+          </div>
+          <div class="prosec-2">
+            <img
+              src="./image/section/product-sec/555ad3336a60bbd1433dd7a999f4d487e96602d8_1680678388.png"
+              alt="prosec-5"
+            />
+            <p>خرید امن</p>
+          </div>
+          <div class="prosec-2">
+            <img
+              src="./image/section/product-sec/d3ef1e7e6dd2189d4c1468c8998b24b4ec5bcc45_1683402274.png"
+              alt="prosec-4"
+            />
+            <p>صندوق جایزه</p>
+          </div>
+          <div class="prosec-2">
+            <img
+              src="./image/section/product-sec/269766a358cf34e58ccaf49aa3ac2d2db397af7a_1661223821.png"
+              alt="prosec-6"
+            />
+            <p>تخفیف دارها</p>
+          </div>
+          <div class="prosec-2">
+            <img
+              src="./image/section/product-sec/78ccd40cbf305fb067de78ddab5be84f69589c8d_1648897009.png"
+              alt="prosec-7"
+            />
+            <p>دیجی پلاس</p>
+          </div>
+          <div class="prosec-2">
+            <img
+              src="./image/section/product-sec/Capture.PNG"
+              alt="more-buttom"
+              class="more-but"
+            />
+            <p>بیشتر</p>
+          </div>
+        </div>
+        <div class="secswiper">
+          <img src="./image/header/Capture.JPG" alt="secswipimg">
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slidesec">
+                  <img src="./image/header/Capture-2.JPG" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slidesec">
+                  <img src="./image/header/Capture-3.JPG" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slidesec">
+                  <img src="./image/header/Capture-4.JPG" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slidesec">
+                  <img src="./image/header/Capture-5.JPG" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slidesec">
+                  <img src="./image/header/Capture-6.JPG" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slidesec">
+                  <img src="./image/header/Capture-7.JPG" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slidesec">
+                  <img src="./image/header/Capture-8.JPG" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slidesec">
+                  <img src="./image/header/Capture-9.JPG" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slidesec">
+                  <img src="./image/header/Capture-10.JPG" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slidesec">
+                  <img src="./image/header/Capture-11.JPG" alt="">
+                </div>
+              </div>
+             
+            </div>
+            <div class="swiper-button-next swiper-button-next2"></div>
+           
+          </div>
+        </div>
+               
+        <div class="mid-section">
+          <div class="midsecban">
+            <img
+              src="./image/section/mid-section/Capture-2.PNG"
+              alt="midsec-pic1"
+            />
+          </div>
+          <div class="midsecimg">
+            <img
+              src="./image/section/mid-section/3268a1b0624f72303841b00137cb40ea0f51b375_1685442697.jpg"
+              alt="midsec-pic2"
+            />
+            <img
+              src="./image/section/mid-section/3f03bfd2649b2bd7978b2dd33b5e4b16a6ce91b9_1685177045.jpg"
+              alt="midsec-pic3"
+            />
+            <img
+              src="./image/section/mid-section/9ee9d49fb91c875ca390d29d45decd25d7d1097b_1679745917.jpg"
+              alt="midsec-pic4"
+            />
+            <img
+              src="./image/section/mid-section/b9b006b6fe4277b07140519788c632e933d19f21_1684932458.png"
+              alt="midsec-pic5"
+            />
+          </div>
+          <div class="midsecpro">
+            <h1>دسته‌بندی‌های دیجی‌کالا</h1>
+            <table>
+              <tr>
+                <td>
+                  <img
+                    src="./image/section/mid-section/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png"
+                    alt=""
+                  />
+                  <p>موبایل</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/8f80e75e4c2dca42ee0538e100c7a7b05455aa88_1662360265.png"
+                    alt=""
+                  />
+                  <p>کالای دیجیتال</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/0c3cc1cb589df1c74c4ad95a742bb6df967956a8_1656161119.png"
+                    alt=""
+                  />
+                  <p>خانه و آشپزخانه</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/5795b31a635f1e23df96a908c009f31744ede38f_1656160928.png"
+                    alt=""
+                  />
+                  <p>مد و پوشاک</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/da24c42172585abb0c328accf85d071049c4253e_1656161034.png"
+                    alt=""
+                  />
+                  <p>کالاهای سوپرمارکتی</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/3582bbed0a53318c2332d2c79b051b226f02a3bb_1656161134.png"
+                    alt=""
+                  />
+                  <p>کتاب، لوازم تحریر و هنر</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="./image/section/mid-section/0c46d2532d61dd3a5b6a3afc17552c23c1b4d39e_1656160976.png"
+                    alt=""
+                  />
+                  <p>اسباب بازی، کودک و نوزاد</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/0cefa48f5c58adbbde8c5a76b22ee49de0e667f5_1656161101.png"
+                    alt=""
+                  />
+                  <p>زیبایی و سلامت</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/1c44d5964f259e0725ec86ca9739de888f1862c7_1656161158.png"
+                    alt=""
+                  />
+
+                  <p>ورزش و سفر</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/5d89d5b168e5ed079d619181e849cc737ec42c8d_1678698730.png"
+                    alt=""
+                  />
+                  <p>ابزار، لوازم ساختمانی و صنعتی</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/4e985adcf61dd54d4d8abe725a62ba3990ea1eb1_1678698550.png"
+                    alt=""
+                  />
+                  <p>خودرو و موتورسیکلت</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/af02140ea60e0fd478b09b279976a095c95615b6_1656161174.png"
+                    alt=""
+                  />
+                  <p>محصولات بومی و محلی</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="midsecimg2">
+            <img
+              src="./image/section/mid-section/283c552e485df2e567a09ceac4a2b1443e141c88_1684926127.jpg"
+              alt=""
+            />
+            <img
+              src="./image/section/mid-section/7601e75e28c9b9989c10de22e6b39fa3d8a994ef_1684924113.jpg"
+              alt=""
+            />
+          </div>
+          <div class="midsecbox">
+            <h2>پیشنهاد دیجی‌کالا</h2>
+            <table cellspacing="0">
+              <tr>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/box-products/f1efae84f679351fc454fc5bc978e4ac43b7d64f_1626074661.jpg"
+                    alt=""
+                  />
+                  <p>ترازو</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="midsecban-2">
+            <img src="./image/section/mid-section/Capture-3.PNG" alt="" />
+          </div>
+          <div class="midsecbox-2">
+            <table cellspacing="0">
+              <tr>
+                <td>
+                  <h4>گوشی موبایل</h4>
+                  <h6>بر اساس بازدید های شما</h6>
+                </td>
+                <td>
+                  <h4>کیف و کاور گوشی</h4>
+                  <h6>بر اساس بازدید های شما</h6>
+                </td>
+                <td>
+                  <h4>هدفون،هدست و هندزفیری</h4>
+                  <h6>بر اساس بازدید های شما</h6>
+                </td>
+                <td>
+                  <h4>ساعت هوشمند</h4>
+                  <h6>بر اساس بازدید های شما</h6>
+                </td>
+              </tr>
+              <tr class="box-2">
+                <td>
+                  <img
+                    src="./image/section/mid-section/ec9a962187e1f82cc47e7a148ef99ec1c6fd024d_1656423336.jpg"
+                    alt=""
+                  />
+                  <img
+                    src="./image/section/mid-section/373cf0add6b2964b30a9a59b2ce2f5f2c8ea976f_1678188426.jpg"
+                    alt=""
+                  />
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/ec9a962187e1f82cc47e7a148ef99ec1c6fd024d_1656423336.jpg"
+                    alt=""
+                  />
+                  <img
+                    src="./image/section/mid-section/373cf0add6b2964b30a9a59b2ce2f5f2c8ea976f_1678188426.jpg"
+                    alt=""
+                  />
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/ec9a962187e1f82cc47e7a148ef99ec1c6fd024d_1656423336.jpg"
+                    alt=""
+                  />
+                  <img
+                    src="./image/section/mid-section/373cf0add6b2964b30a9a59b2ce2f5f2c8ea976f_1678188426.jpg"
+                    alt=""
+                  />
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/ec9a962187e1f82cc47e7a148ef99ec1c6fd024d_1656423336.jpg"
+                    alt=""
+                  />
+                  <img
+                    src="./image/section/mid-section/373cf0add6b2964b30a9a59b2ce2f5f2c8ea976f_1678188426.jpg"
+                    alt=""
+                  />
+                </td>
+              </tr>
+              <tr class="box-3">
+                <td>
+                  <img
+                    src="./image/section/mid-section/1f8bb150b142112d1f7560d5313d1d73ca67aa28_1677060264.jpg"
+                    alt=""
+                  />
+                  <img
+                    src="./image/section/mid-section/e61958991d5905572f1a5385af53ef57376a0cb6_1656406171.jpg"
+                    alt=""
+                  />
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/1f8bb150b142112d1f7560d5313d1d73ca67aa28_1677060264.jpg"
+                    alt=""
+                  />
+                  <img
+                    src="./image/section/mid-section/e61958991d5905572f1a5385af53ef57376a0cb6_1656406171.jpg"
+                    alt=""
+                  />
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/1f8bb150b142112d1f7560d5313d1d73ca67aa28_1677060264.jpg"
+                    alt=""
+                  />
+                  <img
+                    src="./image/section/mid-section/e61958991d5905572f1a5385af53ef57376a0cb6_1656406171.jpg"
+                    alt=""
+                  />
+                </td>
+                <td>
+                  <img
+                    src="./image/section/mid-section/1f8bb150b142112d1f7560d5313d1d73ca67aa28_1677060264.jpg"
+                    alt=""
+                  />
+                  <img
+                    src="./image/section/mid-section/e61958991d5905572f1a5385af53ef57376a0cb6_1656406171.jpg"
+                    alt=""
+                  />
+                </td>
+              </tr>
+              <tr class="box-4">
+                <td>
+                  <p>مشاهده</p>
+                </td>
+                <td>
+                  <p>مشاهده</p>
+                </td>
+                <td>
+                  <p>مشاهده</p>
+                </td>
+                <td>
+                  <p>مشاهده</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="midsecban-3">
+            <img src="./image/section/mid-section/Capture-5.PNG" alt="" />
+          </div>
+
+          <div class="midsecban-4">
+            <img src="./image/section/mid-section/Capture-4.PNG" alt="" />
+          </div>
+        </div>
+        <div class="end-section">
+          <div class="endsecbox-1">
+            <a href="#">مشاهده همه</a>
+            <div class="endsecboxtext">
+              <i class="fa-solid fa-fire"></i>
+              <p>پرفروش‌ ترین کالاها</p>
+            </div>
+            <div class="endboxpro">
+              <table>
+                <tr>
+                  <td>
+                    <div class="ebimg">
+                      <img
+                        src="./image/section/mid-section/headphone.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ebtext">
+                      <span>1</span>
+                      <p>هدفون بلوتوثی کیو سی وای مدل T13 TWS</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="ebimg">
+                      <img
+                        src="./image/section/mid-section/headphone.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ebtext">
+                      <span>2</span>
+                      <p>هدفون بلوتوثی کیو سی وای مدل T13 TWS</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="ebimg">
+                      <img
+                        src="./image/section/mid-section/headphone.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ebtext">
+                      <span>3</span>
+                      <p>هدفون بلوتوثی کیو سی وای مدل T13 TWS</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="ebimg">
+                      <img
+                        src="./image/section/mid-section/headphone.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ebtext">
+                      <span>4</span>
+                      <p>هدفون بلوتوثی کیو سی وای مدل T13 TWS</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="ebimg">
+                      <img
+                        src="./image/section/mid-section/headphone.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ebtext">
+                      <span>5</span>
+                      <p>هدفون بلوتوثی کیو سی وای مدل T13 TWS</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="ebimg">
+                      <img
+                        src="./image/section/mid-section/headphone.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ebtext">
+                      <span>6</span>
+                      <p>هدفون بلوتوثی کیو سی وای مدل T13 TWS</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="ebimg">
+                      <img
+                        src="./image/section/mid-section/headphone.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ebtext">
+                      <span>7</span>
+                      <p>هدفون بلوتوثی کیو سی وای مدل T13 TWS</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="ebimg">
+                      <img
+                        src="./image/section/mid-section/headphone.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ebtext">
+                      <span>8</span>
+                      <p>هدفون بلوتوثی کیو سی وای مدل T13 TWS</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="ebimg">
+                      <img
+                        src="./image/section/mid-section/headphone.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ebtext">
+                      <span>9</span>
+                      <p>هدفون بلوتوثی کیو سی وای مدل T13 TWS</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="ebimg">
+                      <img
+                        src="./image/section/mid-section/headphone.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ebtext">
+                      <span>10</span>
+                      <p>هدفون بلوتوثی کیو سی وای مدل T13 TWS</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="ebimg">
+                      <img
+                        src="./image/section/mid-section/headphone.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ebtext">
+                      <span>11</span>
+                      <p>هدفون بلوتوثی کیو سی وای مدل T13 TWS</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="ebimg">
+                      <img
+                        src="./image/section/mid-section/headphone.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="ebtext">
+                      <span>12</span>
+                      <p>هدفون بلوتوثی کیو سی وای مدل T13 TWS</p>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="endsecread">
+            <div class="endsecreadtext">
+              <p>خواندنی ها</p>
+
+              <a href="#"> مطالب بیشتر در دیجی‌کالا مگ</a>
+            </div>
+            <div class="endsecinfo-1">
+              <div class="endsecinfo-2">
+                <img
+                  src="./image/section/end-section/03.19-1-610x380.jpg"
+                  alt="endsecread-1"
+                />
+                <p>
+                  بررسی ماوس ایسوس ROG SPATHA X گران‌قیمت و برای گیمرهای فوق
+                  حرفه‌ای
+                </p>
+              </div>
+              <div class="endsecinfo-2">
+                <img
+                  src="./image/section/end-section/best-instant-cameras-11-610x380.jpg"
+                  alt="endsecread-2"
+                />
+                <p>۱۰ دوربین چاپ سریع برتر فوجی فیلم؛ لذت عکاسی با چاپ عکس</p>
+              </div>
+              <div class="endsecinfo-2">
+                <img
+                  src="./image/section/end-section/03.19-52-610x380.jpg"
+                  alt="endsecread-3"
+                />
+                <p>
+                  بررسی عینک آفتابی اسپای مدل تاشو ۰۰۴۱kn؛ ارزان اما خوش‌ساخت
+                </p>
+              </div>
+              <div class="endsecinfo-2">
+                <img
+                  src="./image/section/end-section/03.19-27-610x380.jpg"
+                  alt="endsecread-4"
+                />
+                <p>بررسی اسپیکر دسکتاپ تسکو TS 2058؛ ارزان و محبوب</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </section> 
+      <footer>
+        <div class="foottop">
+          <div class="foottoplogo">
+            <svg
+              width="136"
+              height="36"
+              viewBox="0 0 136 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M112.005 13C111.423 13 111.005 13.418 111.005 14V21C111.005 22.3628 110.368 23 109.005 23H100.007V15.5C100.007 11.2647 96.7428 8 92.5083 8H86.0096C85.4045 8 84.3749 8.01669 84.01 8.5L82.0104 11.5C81.6256 12.0092 81.8723 13 82.5103 13H92.5083C93.8711 13 95.0079 14.137 95.0079 15.5V23H74.0119C73.4294 23 73.0121 23.4176 73.0121 24V27C73.0121 27.5826 73.4294 28 74.0119 28H78.0111C78.0111 29.363 76.3745 31 75.0117 31H66.0134C64.6509 31 64.0138 30.363 64.0138 29V19C64.0138 18.4182 63.5959 18 63.014 18H60.0146C59.4327 18 59.0148 18.4182 59.0148 19V29C59.0148 33.5 61.5143 36 66.0134 36H75.0117C79.2462 36 83.0102 32.2353 83.0102 28H99.0071C99.588 28 100.007 27.5808 100.007 27V26L101.098 27.3892C101.463 27.8724 101.901 28 102.506 28H109.005C113.24 28 116.004 25.2353 116.004 21V14C116.004 13.418 115.586 13 115.004 13H112.005ZM105.006 31C104.424 31 104.006 31.4176 104.006 32V35C104.006 35.5826 104.424 36 105.006 36H113.004C113.587 36 114.004 35.5826 114.004 35V32C114.004 31.4176 113.587 31 113.004 31H105.006ZM87.0094 31C86.4271 31 86.0096 31.4176 86.0096 32V35C86.0096 35.5826 86.4271 36 87.0094 36H90.5087C91.091 36 91.5085 35.5826 91.5085 35V32C91.5085 31.4176 91.091 31 90.5087 31H87.0094ZM120.003 8C119.421 8 119.003 8.41803 119.003 9V12C119.003 12.5818 119.421 13 120.003 13H129.001C130.364 13 131.001 13.637 131.001 15V21C131.001 22.3628 130.364 23 129.001 23H120.003C119.421 23 119.003 23.4178 119.003 24V27C119.003 27.582 119.421 28 120.003 28H129.001C133.236 28 136 25.2353 136 21V15C136 10.7647 133.236 8 129.001 8H120.003ZM42.5179 8L47.5664 1.49549C48.0588 0.9 47.6354 0 46.8626 0H43.0217C42.41 0 41.83 0.273083 41.44 0.744663L33.0198 11.5C32.4465 12.1935 32.6198 13 33.5197 13H45.0175C47.8788 13 50.0165 15.1381 50.0165 18V23H30.0203C28.7378 23 28.0207 22.3453 28.0207 21V5C28.0207 4.41823 27.6026 4 27.0209 4H24.0215C23.4396 4 23.0217 4.41823 23.0217 5V21C23.0217 25.5 26.521 28 31.0201 28H54.0157C54.5966 28 55.0155 27.5808 55.0155 27V18C55.0155 12.2657 50.7505 8 45.0175 8H42.5179ZM16.023 4C15.4414 4 15.0232 4.41823 15.0232 5V21C15.0232 22.3632 14.3866 23 13.0236 23H2.02571C1.44386 23 1.0259 23.4182 1.0259 24V27C1.0259 27.5822 1.44386 28 2.02571 28H13.0236C17.5227 28 20.0223 25.5 20.0223 21V5C20.0223 4.41823 19.6043 4 19.0224 4H16.023ZM3.84313 18.7288L0.026095 5C-0.130803 4.44289 0.44723 4 1.0259 4H3.68383C4.21517 4 4.7962 4.23056 4.94037 4.74232L9.04094 18.6329C9.19664 19.1859 8.84274 19.6112 8.26844 19.6112H5.00863C4.46615 19.6112 3.99009 19.2507 3.84313 18.7288Z"
+                fill="#EF394E"
+              />
+            </svg>
+          </div>
+          <div class="foottoptext">
+            <p>تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</p>
+            <div class="text-gapper">|</div>
+            <p>۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</p>
+          </div>
+          <div class="footupper">
+            <a href="#top-page">
+              <p>بازگشت به بالا</p>
+              <i class="fa-solid fa-angle-up"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footmid">
+          <div class="footcon-1">
+            <div class="footcon-2">
+              <svg
+                width="55"
+                height="54"
+                viewBox="0 0 55 54"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M29.9492 13.5L46.0594 18.5345V26.4185L40.7293 28.1536V20.6604L23.9583 15.3141L29.9492 13.5Z"
+                  fill="#E6123D"
+                />
+                <path
+                  d="M30.7164 13.4809L46.9304 18.6615C47.28 18.7732 47.5173 19.0982 47.5173 19.4653V26.3065C47.5173 26.6642 47.2918 26.983 46.9546 27.1021L45.3699 27.6618C44.9305 27.817 44.4485 27.5866 44.2933 27.1472C44.1381 26.7078 44.3685 26.2258 44.8079 26.0706L45.8298 25.7097V20.0814L27.7739 14.3123C26.9997 14.0649 26.9885 12.9735 27.7574 12.7103L33.6976 10.6767C33.8681 10.6184 34.0529 10.6161 34.2248 10.6704L53.1248 16.6342C53.4759 16.745 53.7146 17.0706 53.7146 17.4388V38.0142C53.7146 38.3822 53.4762 38.7077 53.1253 38.8187L34.2253 44.7975C34.0587 44.8502 33.8799 44.8498 33.7135 44.7965L15.0491 38.8178C14.6998 38.7059 14.4628 38.3811 14.4628 38.0142V35.2294C14.4628 34.7634 14.8405 34.3856 15.3065 34.3856C15.7725 34.3856 16.1503 34.7634 16.1503 35.2294V37.3985L33.9725 43.1075L52.0271 37.3962V18.0573L33.9816 12.3632L30.7164 13.4809Z"
+                  fill="#424750"
+                />
+                <path
+                  d="M52.6164 16.7455C53.0607 16.605 53.5348 16.8512 53.6753 17.2955C53.8159 17.7398 53.5696 18.2139 53.1253 18.3545L34.2253 24.3332C34.0593 24.3857 33.8811 24.3856 33.7152 24.3328L19.2918 19.7459C18.8477 19.6047 18.6022 19.1302 18.7434 18.6861C18.8847 18.2421 19.3591 17.9966 19.8032 18.1378L33.9715 22.6436L52.6164 16.7455Z"
+                  fill="#424750"
+                />
+                <path
+                  d="M42.3923 26.8191C42.8348 26.673 43.3119 26.9132 43.4581 27.3557C43.6042 27.7982 43.364 28.2753 42.9215 28.4215L40.8408 29.1087C40.2949 29.289 39.7324 28.8824 39.7324 28.3075V22.0824L21.6765 16.3132C20.8982 16.0645 20.8924 14.9654 21.668 14.7085L28.7559 12.3615C29.1982 12.215 29.6756 12.4549 29.8221 12.8973C29.9686 13.3396 29.7287 13.817 29.2863 13.9635L24.6607 15.4952L40.833 20.6625C41.1826 20.7742 41.4199 21.0991 41.4199 21.4662V27.1402L42.3923 26.8191Z"
+                  fill="#424750"
+                />
+                <path
+                  d="M16.1455 18.2049V22.2706C16.1455 22.7365 15.7677 23.1143 15.3017 23.1143C14.8358 23.1143 14.458 22.7365 14.458 22.2706V17.5854C14.458 17.2168 14.6973 16.8909 15.049 16.7804L21.7528 14.6755C22.1974 14.5359 22.671 14.7832 22.8106 15.2278C22.9502 15.6723 22.7029 16.1459 22.2584 16.2855L16.1455 18.2049Z"
+                  fill="#424750"
+                />
+                <path
+                  d="M23.2715 24.1313C23.7375 24.1313 24.1153 24.509 24.1153 24.975C24.1153 25.441 23.7375 25.8188 23.2715 25.8188H8.09575C7.62976 25.8188 7.252 25.441 7.252 24.975C7.252 24.509 7.62976 24.1313 8.09575 24.1313H23.2715Z"
+                  fill="#19BFD3"
+                />
+                <path
+                  d="M14.8341 27.8438C15.3 27.8438 15.6778 28.2215 15.6778 28.6875C15.6778 29.1535 15.3 29.5312 14.8341 29.5312H1.68326C1.21727 29.5312 0.839508 29.1535 0.839508 28.6875C0.839508 28.2215 1.21727 27.8438 1.68326 27.8438H14.8341Z"
+                  fill="#19BFD3"
+                />
+                <circle cx="5.5645" cy="24.975" r="0.84375" fill="#19BFD3" />
+                <circle cx="7.927" cy="32.4" r="0.84375" fill="#19BFD3" />
+                <path
+                  d="M18.8841 31.5562C19.35 31.5562 19.7278 31.934 19.7278 32.4C19.7278 32.866 19.35 33.2437 18.8841 33.2437H10.4583C9.99226 33.2437 9.6145 32.866 9.6145 32.4C9.6145 31.934 9.99226 31.5562 10.4583 31.5562H18.8841Z"
+                  fill="#19BFD3"
+                />
+                <path
+                  d="M27.3215 9.28125C27.7875 9.28125 28.1653 9.65901 28.1653 10.125C28.1653 10.591 27.7875 10.9688 27.3215 10.9688H14.1707C13.7048 10.9688 13.327 10.591 13.327 10.125C13.327 9.65901 13.7048 9.28125 14.1707 9.28125H27.3215Z"
+                  fill="#19BFD3"
+                />
+                <path
+                  d="M14.1591 13.3312C14.625 13.3312 15.0028 13.709 15.0028 14.175C15.0028 14.641 14.625 15.0187 14.1591 15.0187H7.75826C7.29226 15.0187 6.91451 14.641 6.91451 14.175C6.91451 13.709 7.29226 13.3312 7.75826 13.3312H14.1591Z"
+                  fill="#19BFD3"
+                />
+                <path
+                  d="M34.927 43.9172C34.927 44.3832 34.5492 44.7609 34.0833 44.7609C33.6173 44.7609 33.2395 44.3832 33.2395 43.9172V39.7439C33.2395 39.2779 33.6173 38.9001 34.0833 38.9001C34.5492 38.9001 34.927 39.2779 34.927 39.7439V43.9172Z"
+                  fill="#424750"
+                />
+                <path
+                  d="M34.927 36.3534C34.927 36.8194 34.5492 37.1972 34.0833 37.1972C33.6173 37.1972 33.2395 36.8194 33.2395 36.3534V24.3C33.2395 23.834 33.6173 23.4562 34.0833 23.4562C34.5492 23.4562 34.927 23.834 34.927 24.3V36.3534Z"
+                  fill="#424750"
+                />
+              </svg>
+              <p>اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</p>
+            </div>
+            <div class="footcon-2">
+              <svg
+                width="55"
+                height="54"
+                viewBox="0 0 55 54"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.3774 46.3837H10.7982C9.92605 46.3837 9.21919 45.6767 9.21919 44.8047V31.9357C9.21919 31.0636 9.92613 30.3567 10.7982 30.3567H18.3775C19.2496 30.3567 19.9565 31.0636 19.9565 31.9357V44.8047C19.9565 45.6767 19.2495 46.3837 18.3774 46.3837Z"
+                  fill="#E6123D"
+                />
+                <path
+                  d="M14.5878 42.4362C14.3802 42.4362 14.1765 42.5206 14.0296 42.6675C13.8828 42.8145 13.7983 43.0181 13.7983 43.2257C13.7983 43.4334 13.8827 43.6371 14.0296 43.7839C14.1765 43.9307 14.3802 44.0153 14.5878 44.0153C14.7955 44.0153 14.9992 43.9308 15.1459 43.7839C15.2928 43.6371 15.3774 43.4334 15.3774 43.2257C15.3774 43.0181 15.2929 42.8144 15.1459 42.6675C14.9991 42.5205 14.7954 42.4362 14.5878 42.4362Z"
+                  fill="#424750"
+                />
+                <path
+                  d="M44.9413 21.9741C44.7336 21.9741 44.5299 22.0585 44.3831 22.2054C44.2363 22.3523 44.1517 22.556 44.1517 22.7636C44.1517 22.9713 44.2362 23.175 44.3831 23.3217C44.5299 23.4686 44.7336 23.5531 44.9413 23.5531C45.1497 23.5531 45.3526 23.4687 45.4995 23.3217C45.647 23.175 45.7315 22.9713 45.7315 22.7636C45.7315 22.556 45.647 22.3523 45.4995 22.2054C45.3526 22.0585 45.1497 21.9741 44.9413 21.9741Z"
+                  fill="#424750"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M48.0629 15.8629C48.2723 15.8629 48.4732 15.9461 48.6213 16.0941C48.7694 16.2422 48.8524 16.443 48.8526 16.6524V46.3838C48.8526 46.8197 48.499 47.1733 48.063 47.1733H24.2298C23.2682 47.1733 22.3397 46.8253 21.615 46.1933L20.6763 45.3747C20.4205 46.4061 19.4871 47.1732 18.3776 47.1732H10.7982C9.49221 47.1732 8.42966 46.1107 8.42974 44.8046V31.9356C8.42974 30.6297 9.49221 29.5671 10.7982 29.5671H18.3775C19.1886 29.5671 19.9056 29.9772 20.3327 30.6008L22.8401 28.0933C23.1228 27.8107 23.7029 27.333 24.6948 26.8032C26.2086 25.9947 27.8515 25.4166 27.8515 25.4166V18.9113V16.6534C27.8515 16.2175 28.205 15.8639 28.641 15.8639L48.0629 15.8629ZM10.7982 45.5942H18.3774C18.8127 45.5942 19.1669 45.24 19.167 44.8047V31.9357C19.167 31.5004 18.8128 31.1462 18.3775 31.1462H15.3774V40.2412C15.3774 40.6771 15.0238 41.0307 14.5878 41.0307C14.1518 41.0307 13.7983 40.6771 13.7983 40.2412V31.1462H10.7982C10.3628 31.1462 10.0086 31.5004 10.0086 31.9357V44.8047C10.0086 45.2401 10.3628 45.5942 10.7982 45.5942ZM22.6526 45.0033L20.746 43.3405V32.4206L23.3029 29.8263C23.3029 29.8263 24.3891 28.8857 25.1206 28.4731C26.6622 27.6036 27.8493 27.262 27.8493 27.262V29.3844L27.0844 31.4197C27.1738 31.7692 27.4886 32.0136 27.8493 32.0136L41.1054 32.0146C41.7149 32.0146 42.2107 32.5104 42.2107 33.1199C42.2107 33.7294 41.7149 34.2253 41.1054 34.2253H33.1517C32.7157 34.2253 32.3622 34.5788 32.3622 35.0148C32.3622 35.4508 32.7157 35.8043 33.1517 35.8043H43.5766C44.1861 35.8043 44.682 36.3002 44.682 36.9097C44.682 37.5192 44.1861 38.015 43.5766 38.015H33.1517C32.7157 38.015 32.3622 38.3686 32.3622 38.8045C32.3622 39.2405 32.7157 39.5941 33.1517 39.5941H41.8873C42.4968 39.5941 42.9926 40.0899 42.9926 40.6994C42.9926 41.3089 42.4968 41.8047 41.8873 41.8047H33.1517C32.7157 41.8047 32.3622 42.1583 32.3622 42.5943C32.3622 43.0303 32.7157 43.3838 33.1517 43.3838H39.1942C39.8037 43.3838 40.2995 43.8796 40.2995 44.4891C40.2995 45.0987 39.8037 45.5945 39.1942 45.5945H24.2296C23.6497 45.5942 23.0897 45.3844 22.6526 45.0033ZM41.8785 44.4889C41.8785 44.8829 41.7925 45.2569 41.6394 45.5942L47.2735 45.5942V17.7777L29.4306 17.7786V30.4355L41.1053 30.4356C42.5855 30.4356 43.7896 31.6398 43.7896 33.1199C43.7896 33.5139 43.7037 33.8879 43.5765 34.2253C43.774 34.2253 43.9664 34.2474 44.152 34.288V25.3038C44.152 24.8679 44.5055 24.5143 44.9415 24.5143C45.3775 24.5143 45.731 24.8679 45.731 25.3038V35.3104C46.0636 35.7573 46.2609 36.3108 46.2609 36.9096C46.2609 38.1439 45.4233 39.1856 44.2866 39.4978C44.4686 39.8596 44.5716 40.2675 44.5716 40.6992C44.5716 42.1794 43.3674 43.3836 41.8873 43.3836H41.6394C41.7925 43.7209 41.8785 44.0949 41.8785 44.4889Z"
+                  fill="#424750"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M32.0558 17.55H36.4436V30.7125H32.0558V17.55Z"
+                  fill="#424750"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.57294 15.0188C6.57294 17.9593 9.06672 22.269 14.0302 28.1056C14.3671 28.5018 14.9788 28.5018 15.3157 28.1056C20.2792 22.269 22.7729 17.9593 22.7729 15.0188C22.7729 10.5453 19.1464 6.91876 14.6729 6.91876C10.1994 6.91876 6.57294 10.5453 6.57294 15.0188ZM14.6729 8.60626C18.2145 8.60626 21.0854 11.4772 21.0854 15.0188C21.0854 17.3097 18.9549 21.0984 14.6729 26.2482C10.391 21.0984 8.26044 17.3097 8.26044 15.0188C8.26044 11.4772 11.1314 8.60626 14.6729 8.60626Z"
+                  fill="#19BFD3"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10.7073 15.0188C10.7073 17.2089 12.4828 18.9844 14.6729 18.9844C16.8631 18.9844 18.6386 17.2089 18.6386 15.0188C18.6386 12.8286 16.8631 11.0531 14.6729 11.0531C12.4828 11.0531 10.7073 12.8286 10.7073 15.0188ZM17.1198 15.0188C17.1198 16.3701 16.0243 17.4656 14.6729 17.4656C13.3216 17.4656 12.2261 16.3701 12.2261 15.0188C12.2261 13.6674 13.3216 12.5719 14.6729 12.5719C16.0243 12.5719 17.1198 13.6674 17.1198 15.0188Z"
+                  fill="#19BFD3"
+                />
+              </svg>
+              <p>امکان پرداخت در محل</p>
+            </div>
+            <div class="footcon-2">
+              <svg
+                width="55"
+                height="54"
+                viewBox="0 0 55 54"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M39.4945 36.3848C42.2968 36.3848 44.5685 34.1131 44.5685 31.3108C44.5685 28.5082 42.2968 26.2365 39.4945 26.2365V36.3848Z"
+                  fill="#E6123D"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M40.3013 35.5014V27.1196C42.27 27.498 43.7621 29.2334 43.7621 31.3107C43.7621 33.388 42.27 35.1234 40.3013 35.5014ZM40.707 11.4181C37.6968 8.40795 33.71 6.74982 29.4811 6.74982C25.2522 6.74982 21.2653 8.40795 18.2548 11.4181C17.1104 12.5629 16.1613 13.8485 15.4245 15.2349C14.951 16.5289 16.4796 16.8448 16.8505 15.9845C19.2477 11.4559 24.0102 8.3634 29.4811 8.3634C37.3556 8.3634 43.7621 14.7698 43.7621 22.6444V27.2705C42.6895 26.1382 41.1738 25.4298 39.4947 25.4298C39.0489 25.4298 38.6877 25.7909 38.6877 26.2364V36.3847C38.6877 36.8305 39.0489 37.1916 39.4947 37.1916C42.707 37.1916 45.3247 34.602 45.3733 31.4008C45.3736 31.391 45.3746 28.472 45.3753 22.6444C45.3753 18.4155 43.7175 14.4286 40.707 11.4181Z"
+                  fill="#424750"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M43.9048 36.3035C43.7002 36.3035 43.4994 36.3869 43.3546 36.5313C43.2099 36.6761 43.1268 36.8769 43.1268 37.0825C43.1268 37.2863 43.2099 37.4868 43.3546 37.6326C43.4994 37.7771 43.7002 37.8597 43.9048 37.8597C44.1093 37.8597 44.3101 37.7771 44.4549 37.6326C44.5997 37.4868 44.6827 37.287 44.6827 37.0825C44.6827 36.8769 44.5997 36.6761 44.4549 36.5313C44.3101 36.3869 44.1093 36.3035 43.9048 36.3035Z"
+                  fill="#424750"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M32.2522 44.0203L33.397 43.777L33.6404 44.9218L32.4956 45.1651L32.2522 44.0203ZM43.463 38.8393C43.0772 38.6166 42.5834 38.7486 42.3607 39.1343C40.795 41.8448 38.3343 43.7091 35.2138 44.563L34.8078 42.6524C34.7149 42.2164 34.2867 41.9383 33.8506 42.0307L31.1277 42.6096C30.6916 42.7024 30.4135 43.1307 30.5063 43.5667L31.0851 46.2897C31.1776 46.7257 31.6059 47.0038 32.0419 46.9113L34.7652 46.3325C38.7184 45.4922 41.8281 43.2822 43.7579 39.9416C43.981 39.5559 43.8487 39.0624 43.463 38.8393Z"
+                  fill="#424750"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M11.8471 37.4615C10.3344 37.4615 9.10831 36.2353 9.10831 34.7226V20.3607C9.10831 18.848 10.3344 17.6219 11.8471 17.6219H31.576C33.0887 17.6219 34.3148 18.848 34.3148 20.3607V38.4132C34.3148 39.3758 33.5345 40.1561 32.572 40.1561C32.0468 40.1561 31.5497 39.9195 31.2189 39.5118L29.5547 37.4615H11.8471ZM11.8471 19.1156C11.1596 19.1156 10.6021 19.6732 10.6021 20.3607V34.7226C10.6021 35.4101 11.1596 35.9677 11.8471 35.9677H30.2662L32.3786 38.5701C32.4258 38.6285 32.4971 38.6623 32.572 38.6623C32.7097 38.6623 32.8211 38.5509 32.8211 38.4132V20.3607C32.8211 19.6732 32.2635 19.1156 31.576 19.1156H11.8471Z"
+                  fill="#19BFD3"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M26.2996 26.7646H31.3213V28.0711L28.6885 34.5808H27.0661L29.6217 28.2385H26.2996V26.7646ZM24.3202 26.6252V28.0545H23.4869V29.3833H21.9425V28.0545H18.2651V26.6252L20.9435 21.4109H22.5878L19.9206 26.6252H21.9425V24.7717H23.4869V26.6252H24.3202ZM12.2347 29.3833V28.2331L14.8898 25.4865C15.39 24.9617 15.7788 24.448 15.7788 23.9232C15.7788 23.2978 15.3565 22.907 14.7676 22.907C14.1679 22.907 13.7234 23.2644 13.4679 23.8226L12.179 23.0633C12.6792 21.9468 13.69 21.4109 14.7457 21.4109C16.0788 21.4109 17.312 22.3039 17.312 23.8672C17.312 24.8162 16.7676 25.6316 16.0342 26.3684L14.5121 27.8983H17.4342V29.3833H12.2347Z"
+                  fill="#424750"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M28.0015 21.6874L21.0642 34.5809H21.7365L28.6691 21.6874H28.0015Z"
+                  fill="#E6123D"
+                />
+              </svg>
+              <p>۷ روز ﻫﻔﺘﻪ، ۲۴ ﺳﺎﻋﺘﻪ</p>
+            </div>
+            <div class="footcon-2">
+              <svg
+                width="55"
+                height="54"
+                viewBox="0 0 55 54"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M23.8099 9.51141L39.9201 14.5458V22.4298L34.5902 24.165V16.6719L17.8189 11.3253L23.8099 9.51141Z"
+                  fill="#E6123D"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M47.2466 13.319C47.206 13.1589 47.1305 13.0422 47.0282 12.9519C46.9803 12.904 46.927 12.8617 46.8693 12.8262C46.8367 12.8069 46.8029 12.7899 46.7682 12.7752C46.744 12.7614 28.0002 6.78994 28.0002 6.78994C27.8327 6.73673 27.6528 6.73673 27.4853 6.78994L8.79205 12.7378C8.43868 12.8489 8.19801 13.1762 8.19727 13.5467V33.9393C8.19758 34.3101 8.43837 34.6378 8.79205 34.7491L15.3567 36.9684C15.5242 37.0216 15.9054 35.4872 15.9054 35.4872L9.89665 33.3182V14.1678L15.5615 12.3656L31.4508 17.4221L27.7402 18.6024L13.5503 14.0888C13.1031 13.9466 12.6253 14.1938 12.4831 14.6411C12.3409 15.0883 12.5882 15.5661 13.0354 15.7083L26.8905 20.1157V30.2149C26.8905 30.6842 27.2709 31.0646 27.7402 31.0646C28.2094 31.0646 28.5899 30.6842 28.5899 30.2149V20.1157L33.4051 18.5862V24.2231C33.4051 24.6923 33.7855 25.0728 34.2548 25.0728C34.3412 25.0722 34.4271 25.0587 34.5097 25.0328L36.492 24.4007C36.9393 24.2584 37.1865 23.7807 37.0443 23.3334C36.9021 22.8862 36.4244 22.6389 35.9771 22.7811L35.1019 23.0598V18.0467L39.4914 16.6498V21.6629L38.5262 21.9697C38.0789 22.1119 37.8317 22.5896 37.9739 23.0369C38.0857 23.3888 38.412 23.6281 38.7811 23.6291C38.8676 23.6292 38.9537 23.6158 39.036 23.5892L40.5943 23.0938C40.948 22.9826 41.1888 22.6549 41.1891 22.2841V16.106L45.5837 14.7091V33.3173L44.4791 33.6699C44.0276 33.7978 43.7652 34.2674 43.893 34.719C44.0209 35.1705 44.4906 35.4329 44.9421 35.3051C44.9578 35.3006 46.6884 34.7491 46.6884 34.7491C47.0421 34.6378 47.2829 34.3101 47.2832 33.9393V13.5467C47.2814 13.4695 47.2691 13.3929 47.2466 13.319ZM34.2539 16.53L18.3647 11.4743L21.6513 10.4283L37.5405 15.484L34.2539 16.53ZM24.4544 9.53614L40.3428 14.5927L43.6294 13.5467L27.7402 8.49102L24.4544 9.53614Z"
+                  fill="#424750"
+                />
+                <path
+                  d="M12.5956 28.0125C12.1586 28.0125 11.8042 28.3669 11.8042 28.8039L11.8042 34.5531C11.8042 34.9902 12.1586 35.3445 12.5956 35.3445C13.0327 35.3445 13.3871 34.9902 13.3871 34.5531V28.8039C13.3871 28.3669 13.0327 28.0125 12.5956 28.0125Z"
+                  fill="#424750"
+                />
+                <path
+                  d="M12.5952 25.65C12.3872 25.65 12.1831 25.7346 12.036 25.8818C11.8888 26.0289 11.8042 26.233 11.8042 26.4418C11.8042 26.649 11.8888 26.8531 12.036 27.0011C12.1831 27.1482 12.3872 27.232 12.5952 27.232C12.8033 27.232 13.0073 27.1482 13.1545 27.0011C13.3016 26.8531 13.3862 26.6498 13.3862 26.4418C13.3862 26.233 13.3016 26.0289 13.1545 25.8818C13.0073 25.7346 12.8033 25.65 12.5952 25.65Z"
+                  fill="#424750"
+                />
+                <path
+                  d="M15.6327 35.4375C15.4247 35.4375 15.2206 35.5221 15.0734 35.6693C14.9263 35.8164 14.8417 36.0205 14.8417 36.2293C14.8417 36.4366 14.9263 36.6406 15.0734 36.7886C15.2206 36.9357 15.4247 37.0195 15.6327 37.0195C15.8407 37.0195 16.0448 36.9357 16.1919 36.7886C16.3391 36.6406 16.4237 36.4373 16.4237 36.2293C16.4237 36.0205 16.3391 35.8164 16.1919 35.6693C16.0448 35.5221 15.8407 35.4375 15.6327 35.4375Z"
+                  fill="#424750"
+                />
+                <path
+                  d="M41.3352 24.7959C40.866 24.7959 40.4855 25.1763 40.4855 25.6456V34.5038C40.4809 38.7253 37.0598 42.1463 32.8383 42.151H22.642C22.1728 42.151 21.7923 42.5314 21.7923 43.0007V44.7672L15.6269 40.4516L21.7923 36.136V37.9025C21.7923 38.3718 22.1728 38.7522 22.642 38.7522H30.2892C33.1037 38.7495 35.3846 36.4686 35.3874 33.6541V33.2928C35.3874 32.8236 35.0069 32.4431 34.5377 32.4431C34.0684 32.4431 33.688 32.8236 33.688 33.2928V33.6541C33.688 35.5312 32.1663 37.0528 30.2892 37.0528H23.4917V34.5038C23.4915 34.0345 23.1108 33.6543 22.6416 33.6545C22.4676 33.6546 22.2978 33.7081 22.1551 33.8079L13.6582 39.7557C13.2738 40.025 13.1806 40.5549 13.4498 40.9391C13.5066 41.0202 13.5772 41.0907 13.6582 41.1475L22.1551 47.0954C22.5397 47.3643 23.0695 47.2705 23.3383 46.8859C23.4381 46.7433 23.4916 46.5735 23.4917 46.3995V43.8504H32.8383C37.9977 43.8443 42.1789 39.6632 42.1849 34.5038V25.6456C42.1849 25.1763 41.8045 24.7959 41.3352 24.7959Z"
+                  fill="#19BFD3"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M14.8417 20.5875H23.3409V22.7875L18.8844 33.75H16.1391L20.4639 23.0696H14.8417V20.5875Z"
+                  fill="#E6123D"
+                />
+              </svg>
+              <p>هفت روز ضمانت بازگشت کالا</p>
+            </div>
+            <div class="footcon-2">
+              <svg
+                width="54"
+                height="54"
+                viewBox="0 0 54 54"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M41.9305 29.6715L41.9074 29.5196C41.7378 28.4116 41.7248 27.9845 41.8499 27.5209C41.9685 27.0821 42.1898 26.7306 42.8787 25.8818C43.8101 24.7345 44.0439 24.3034 44.0438 23.625C44.0438 22.9469 43.8099 22.5157 42.8786 21.3685L42.8037 21.2763C42.195 20.5246 41.9636 20.1505 41.8499 19.7296C41.7639 19.411 41.7476 19.0404 41.7974 18.5417C41.818 18.3354 41.8426 18.1548 41.9075 17.731C42.1272 16.2967 42.1136 15.8324 41.7846 15.2696C41.4613 14.7163 41.019 14.4415 39.7705 13.9594L39.6688 13.9202C38.6248 13.5182 38.2483 13.3189 37.9132 12.9872C37.5782 12.6555 37.3772 12.2832 36.9712 11.2499L36.9314 11.1489C36.4444 9.91296 36.1665 9.47468 35.6078 9.15476C35.0667 8.84478 34.5428 8.82328 33.2251 9.01842L33.0953 9.03786C32.6952 9.09783 32.5144 9.1219 32.3079 9.14216C31.802 9.19181 31.4262 9.17573 31.1032 9.09029C30.6592 8.97284 30.3039 8.75363 29.4462 8.07148C28.2875 7.14984 27.8527 6.91876 27.1689 6.91876C26.5704 6.91876 26.056 7.16668 25.2241 7.80948C25.1428 7.87226 25.0635 7.93472 24.8918 8.07114C24.0339 8.75342 23.6786 8.97263 23.2347 9.09008C22.7655 9.21415 22.3328 9.20117 21.2137 9.03322C19.7661 8.81588 19.2979 8.82929 18.7303 9.15436C18.1527 9.48514 17.9013 9.88936 17.367 11.2494C16.9611 12.2824 16.7599 12.6549 16.4248 12.9866C16.1184 13.2899 15.717 13.5115 14.9035 13.8289C14.8415 13.8531 14.7925 13.8721 14.6692 13.9195L14.5671 13.9589C13.3188 14.4409 12.8766 14.7157 12.5532 15.2689C12.2395 15.8057 12.2178 16.3254 12.4151 17.6312L12.4346 17.759C12.4952 18.155 12.5195 18.3339 12.54 18.5382C12.5901 19.0385 12.5738 19.41 12.4877 19.7291C12.3685 20.1703 12.1441 20.5239 11.4124 21.4255C11.3165 21.5438 11.2558 21.6195 11.1953 21.6962C10.5446 22.5212 10.2938 23.0309 10.2938 23.625C10.2938 24.2184 10.5445 24.7284 11.1932 25.5511C11.257 25.6321 11.3206 25.7111 11.4588 25.8815C12.1476 26.73 12.3691 27.0818 12.4876 27.5207C12.5737 27.8394 12.59 28.2103 12.5401 28.7095C12.5194 28.9156 12.4949 29.0959 12.43 29.5192C12.2104 30.9533 12.2239 31.4177 12.5529 31.9806C12.8763 32.5338 13.3186 32.8086 14.567 33.2907L14.6687 33.3299C15.7127 33.7319 16.0893 33.9312 16.4244 34.263C16.7594 34.5946 16.9605 34.9669 17.3664 36.0002L17.4062 36.1013C17.8933 37.3372 18.1712 37.7754 18.7299 38.0954C19.271 38.4053 19.7949 38.4268 21.113 38.2316L21.2432 38.2121C21.6439 38.152 21.8252 38.1279 22.0321 38.1077C22.2223 38.089 22.39 38.0799 22.5446 38.0799C22.806 38.0799 23.0317 38.1061 23.2344 38.1597C23.6784 38.2772 24.0337 38.4964 24.8914 39.1785C26.0502 40.1002 26.4849 40.3313 27.1688 40.3313C27.8526 40.3313 28.2873 40.1002 29.446 39.1786L29.5393 39.1045C30.2988 38.5017 30.677 38.2725 31.1029 38.1598C31.5721 38.0357 32.0042 38.0487 33.1239 38.2167C34.5715 38.434 35.0397 38.4206 35.6074 38.0956C36.1849 37.7648 36.4364 37.3606 36.9707 36.0005C37.3765 34.9676 37.5777 34.595 37.9128 34.2634C38.248 33.9315 38.6243 33.7324 39.6684 33.3304L39.7705 33.291C41.0188 32.809 41.4611 32.5342 41.7844 31.981C42.0981 31.4442 42.1199 30.9245 41.9305 29.6715ZM42.3141 23.6252C42.3141 23.7684 42.0987 24.107 41.5314 24.8059C40.6679 25.8698 40.3754 26.3504 40.1792 27.077C39.9769 27.826 39.9869 28.4022 40.2009 29.8004L40.22 29.9259C40.3267 30.6325 40.3395 31.0324 40.288 31.1206C40.2286 31.2223 39.8684 31.4122 39.143 31.6923L39.0425 31.731C37.7409 32.2321 37.2373 32.5081 36.6909 33.049C36.1444 33.59 35.8652 34.0892 35.359 35.3776C35.0402 36.1891 34.8519 36.5471 34.7425 36.6098C34.6436 36.6665 34.2334 36.6481 33.3827 36.5204C31.9929 36.3118 31.4117 36.3025 30.6571 36.5022C29.9509 36.689 29.4266 36.9968 28.4586 37.765L28.364 37.8402C27.6568 38.4026 27.315 38.6156 27.1688 38.6156C27.0225 38.6156 26.6806 38.4025 25.9735 37.8401C24.8989 36.9855 24.4136 36.6961 23.6802 36.5021C23.3276 36.4087 22.9548 36.3643 22.5446 36.3643C22.3313 36.3643 22.1082 36.3762 21.8622 36.4003C21.6169 36.4243 21.4138 36.4514 20.9311 36.5238L20.8045 36.5427C20.0895 36.6486 19.6849 36.6612 19.5948 36.6096C19.4917 36.5506 19.3002 36.1948 19.0172 35.4767L18.978 35.3772C18.4717 34.0885 18.1928 33.5897 17.6464 33.0487C17.1 32.5078 16.5961 32.2316 15.2947 31.7306L15.1945 31.692C14.4689 31.4118 14.1088 31.2219 14.0493 31.1201C13.9925 31.023 14.0119 30.6138 14.1445 29.7481C14.2103 29.3188 14.2373 29.1191 14.2613 28.8788C14.3318 28.1737 14.3027 27.6111 14.1584 27.0768C13.9612 26.3466 13.6664 25.8654 12.7604 24.7493C12.6687 24.6362 12.6113 24.5647 12.5557 24.4942C12.2002 24.0433 12.0234 23.7371 12.0234 23.625C12.0234 23.5127 12.2006 23.2059 12.5576 22.7533C12.6153 22.6802 12.6743 22.6067 12.8064 22.4439C13.6697 21.3801 13.9622 20.8995 14.1585 20.1729C14.3029 19.638 14.3319 19.0749 14.2612 18.3686C14.2369 18.1263 14.2096 17.9259 14.1368 17.4495L14.1177 17.3241C14.0109 16.6174 13.9981 16.2175 14.0496 16.1293C14.1091 16.0276 14.4692 15.8378 15.1946 15.5576L15.2951 15.5189C15.4211 15.4704 15.4717 15.4508 15.5367 15.4255C16.5875 15.0155 17.143 14.6996 17.6468 14.2008C18.1932 13.6598 18.4723 13.1608 18.9786 11.8724C19.2974 11.0608 19.4857 10.7028 19.5952 10.6401C19.6941 10.5835 20.1042 10.6018 20.9549 10.7295C22.3439 10.938 22.9258 10.9473 23.6803 10.7478C24.4175 10.5528 24.903 10.2613 26.0309 9.36428C26.1444 9.27409 26.2162 9.21766 26.287 9.16292C26.7442 8.80971 27.0541 8.63439 27.1689 8.63439C27.3151 8.63439 27.657 8.84748 28.3642 9.40995C29.4387 10.2645 29.924 10.5539 30.6574 10.748C31.1972 10.8907 31.7654 10.9194 32.4782 10.8494C32.723 10.8254 32.9254 10.7984 33.4071 10.7262L33.5338 10.7073C34.2483 10.6015 34.6527 10.5889 34.7428 10.6405C34.846 10.6995 35.0374 11.0553 35.3204 11.7734L35.3596 11.8729C35.8659 13.1617 36.1448 13.6604 36.6913 14.2014C37.2377 14.7423 37.7413 15.0184 39.0428 15.5195L39.143 15.5581C39.8686 15.8383 40.2287 16.0282 40.2882 16.13C40.345 16.2272 40.3256 16.6364 40.193 17.502C40.1272 17.932 40.1001 18.132 40.0761 18.3727C40.0058 19.0771 40.0349 19.6394 40.1791 20.1734C40.368 20.873 40.6791 21.3923 41.4553 22.3508L41.5313 22.4444C42.0987 23.1434 42.3141 23.482 42.3141 23.6252Z"
+                  fill="#424750"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M27.5063 34.425C33.3777 34.425 38.1375 29.7408 38.1375 23.9625C38.1375 18.1842 33.3777 13.5 27.5063 13.5C21.6348 13.5 16.875 18.1842 16.875 23.9625C16.875 29.7408 21.6348 34.425 27.5063 34.425ZM34.0442 17.725C33.6315 17.4276 33.0539 17.5184 32.754 17.9277L25.2686 28.1471L21.7478 25.3759C21.3483 25.0614 20.7673 25.1277 20.4502 25.5239C20.1331 25.9202 20.1999 26.4965 20.5995 26.811L24.8752 30.1764C25.2869 30.5004 25.8878 30.419 26.1966 29.9973L34.2486 19.0045C34.5484 18.5952 34.4569 18.0223 34.0442 17.725Z"
+                  fill="#E6123D"
+                />
+                <path
+                  d="M27.5063 12.825C27.8917 12.825 28.2042 13.1328 28.2042 13.5125C28.2042 13.8922 27.8917 14.2 27.5063 14.2C22.0329 14.2 17.5958 18.5708 17.5958 23.9625C17.5958 29.3542 22.0329 33.725 27.5063 33.725C32.9796 33.725 37.4167 29.3542 37.4167 23.9625C37.4167 23.5828 37.7291 23.275 38.1146 23.275C38.5 23.275 38.8125 23.5828 38.8125 23.9625C38.8125 30.1136 33.7505 35.1 27.5063 35.1C21.262 35.1 16.2 30.1136 16.2 23.9625C16.2 17.8114 21.262 12.825 27.5063 12.825Z"
+                  fill="#424750"
+                />
+                <path
+                  d="M35.5928 39.557C35.5928 39.1458 35.9358 38.8125 36.3589 38.8125C36.782 38.8125 37.125 39.1458 37.125 39.557V46.5052C37.125 46.9845 36.6658 47.3389 36.1854 47.2303L27.5734 45.284L18.8246 47.2309C18.3449 47.3376 17.8875 46.9835 17.8875 46.5052V41.873C17.8875 41.4619 18.2305 41.1286 18.6536 41.1286C19.0767 41.1286 19.4197 41.4619 19.4197 41.873V45.571L27.4038 43.7943C27.5172 43.7691 27.635 43.7693 27.7483 43.7949L35.5928 45.5678V39.557Z"
+                  fill="#19BFD3"
+                />
+                <path
+                  d="M18.7313 38.8125C18.5094 38.8125 18.2917 38.9028 18.1347 39.0597C17.9778 39.2167 17.8875 39.4343 17.8875 39.6571C17.8875 39.8782 17.9778 40.0958 18.1347 40.2536C18.2917 40.4106 18.5094 40.5 18.7313 40.5C18.9532 40.5 19.1709 40.4106 19.3278 40.2536C19.4847 40.0958 19.575 39.879 19.575 39.6571C19.575 39.4343 19.4847 39.2167 19.3278 39.0597C19.1709 38.9028 18.9532 38.8125 18.7313 38.8125Z"
+                  fill="#19BFD3"
+                />
+                <path
+                  d="M30.2062 12.825C29.9843 12.825 29.7666 12.9153 29.6097 13.0722C29.4528 13.2292 29.3625 13.4469 29.3625 13.6696C29.3625 13.8907 29.4528 14.1084 29.6097 14.2661C29.7666 14.4231 29.9843 14.5125 30.2062 14.5125C30.4281 14.5125 30.6458 14.4231 30.8028 14.2661C30.9597 14.1084 31.05 13.8915 31.05 13.6696C31.05 13.4469 30.9597 13.2292 30.8028 13.0722C30.6458 12.9153 30.4281 12.825 30.2062 12.825Z"
+                  fill="#424750"
+                />
+              </svg>
+              <p>ﺿﻤﺎﻧﺖ اﺻﻞ ﺑﻮدن ﮐﺎﻟﺎ</p>
+            </div>
+          </div>
+          <div class="footsec">
+            <div class="footlist">
+              <div class="listsec">
+                <p>با دیجی‌کالا</p>
+                <div class="sublist">اتاق خبر دیجی‌کالا</div>
+                <div class="sublist">فروش در دیجی‌کالا</div>
+                <div class="sublist">فرصت‌های شغلی</div>
+                <div class="sublist">گزارش تخلف در دیجی‌کالا</div>
+                <div class="sublist">تماس با دیجی‌کالا</div>
+                <div class="sublist">درباره دیجی‌کالا</div>
+              </div>
+              <div class="listsec">
+                <p>خدمات مشتریان</p>
+                <div class="sublist">پاسخ به پرسش‌های متداول</div>
+                <div class="sublist">رویه‌های بازگرداندن کالا</div>
+                <div class="sublist">شرایط استفاده</div>
+                <div class="sublist">حریم خصوصی</div>
+                <div class="sublist">گزارش باگ</div>
+              </div>
+              <div class="listsec">
+                <p>راهنمای خرید از دیجی‌کالا</p>
+                <div class="sublist">نحوه ثبت سفارش</div>
+                <div class="sublist">رویه ارسال سفارش</div>
+                <div class="sublist">شیوه‌های پرداخت</div>
+              </div>
+            </div>
+            <div class="footbar">
+              <div class="footbartext">
+                <p>همراه ما باشید!</p>
+              </div>
+              <div class="footbaricons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-facebook"></i>
+              </div>
+              <div class="footbarlogin">
+                <p>با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر شوید</p>
+                <input type="email" placeholder="ایمیل شما" />
+                <button>ثبت</button>
+              </div>
+            </div>
+          </div>
+          <div class="footmidban">
+            <img src="./image/footer/Capture-1.PNG" alt="midfootban" />
+          </div>
+        </div>
+        <div class="footend">
+          <div class="footendsec">
+            <div class="footendsectext">
+              <p>فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین.</p>
+              <span
+                >یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی
+                متنوع، باکیفیت و دارای قیمت مناسب را در مدت زمانی کوتاه به دست
+                مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛ ویژگی‌هایی
+                که فروشگاه اینترنتی دیجی‌کالا سال‌هاست بر روی آن‌ها کار کرده و
+                توانسته از این طریق مشتریان ثابت خود را داشته باشد.</span
+              >
+            </div>
+            <div class="footendsecimg">
+              <div class="footendpro">
+                <img src="./image/footer/kasbokar.png" alt="footendimg-1" />
+              </div>
+              <div class="footendpro">
+                <img src="./image/footer/rezi.png" alt="footendimg-2" />
+              </div>
+              <div class="footendpro">
+                <img src="./image/footer/Capture-2.PNG" alt="footendimg-3" />
+              </div>
+            </div>
+          </div>
+          <div class="footendsectext-2">
+            <a href="#">مشاهده بیشتر </a>
+          </div>
+          <hr />
+          <div class="footendtext">
+            <p>
+              برای استفاده از مطالب دیجی‌کالا، داشتن «هدف غیرتجاری» و ذکر «منبع»
+              کافیست. تمام حقوق اين وب‌سايت نیز برای شرکت نوآوران فن آوازه
+              (فروشگاه آنلاین دیجی‌کالا) است.
+            </p>
+          </div>
+          <div class="footendimg">
+            <img src="./image/footer/Capture-3.PNG" alt="footendimg" />
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./node_modules/swiper/swiper-element-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 6,
+        spaceBetween: 1,
+    
+        navigation: {
+          nextEl: ".swiper-button-next2",
+          prevEl: ".swiper-button-prev2",
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+section > div.end-section > div.endsecbox-1 {
+  width: 1300px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  /* background-color: yellow; */
+  padding-top: 15px;
+  text-align: center;
+  border: 2px solid var(--graycolor);
+  border-radius: 15px;
+}
+div.endsecbox-1 > div.endsecboxtext {
+  width: 230px;
+  height: 60px;
+  display: inline-block;
+  padding-top: 12px;
+  text-align: center;
+}
+div.endsecbox-1 > div.endsecboxtext > p {
+  display: inline-block;
+  font-size: 20px;
+  font-family: irankeywan;
+}
+div.endsecbox-1 > div.endsecboxtext > i {
+  display: inline-block;
+  color: #f9a825;
+  font-size: 22px;
+  margin-left: 7px;
+}
+div.endsecbox-1 > a {
+  display: flex;
+  justify-content: flex-end;
+  height: 2px;
+  text-decoration: none;
+  color: #19bfd3;
+  font-size: 15px;
+  margin-left: 15px;
+  font-family: irankeywan;
+}
+div.endboxpro > table > tbody > tr {
+  width: 133px;
+  height: 100px;
+  /* background-color: black; */
+  display: flex;
+}
+div.endboxpro > table > tbody > tr > td {
+  width: 320px;
+  height: inherit;
+  /* background-color: pink; */
+  display: flex;
+}
+
+div.endboxpro > table > tbody > tr > td > div.ebimg {
+  width: 90px;
+  height: 90px;
+  /* background-color: green; */
+}
+div.endboxpro > table > tbody > tr > td > div.ebimg > img {
+  width: inherit;
+  height: inherit;
+}
+div.endboxpro > table > tbody > tr > td > div.ebtext {
+  width: 230px;
+  height: inherit;
+  /* background-color: darkred; */
+  text-align: right;
+}
+div.endboxpro > table > tbody > tr > td > div.ebtext > span {
+  display: inline-block;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #19bfd3;
+  font-family: shabnam;
+}
+div.endboxpro > table > tbody > tr > td > div.ebtext > p {
+  width: 130px;
+  display: inline-block;
+  font-size: 13px;
+  text-align: right;
+  margin-top: 10px;
+  color: #4e4f70;
+  line-height: 25px;
+  font-family: irankeywan;
+}

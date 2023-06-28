@@ -1,0 +1,48 @@
+div.mid-section > div.midsecbox {
+  width: var(--width);
+  height: 400px;
+  /* background-color: aqua; */
+  margin-top: 60px;
+  padding-top: 10px;
+}
+div.midsecbox > h2 {
+  text-align: center;
+  font-family: irankeywan;
+}
+div.midsecbox > table {
+  width: 1300px;
+  height: 300px;
+  /* background-color: brown; */
+  margin-top: 40px;
+  margin-right: 50px;
+  border: solid 1px #E8E8EC;
+  border-radius: 10px;
+}
+div.midsecbox > table > tbody > tr {
+  height: 150px;
+  
+}
+div.midsecbox > table > tbody > tr > td {
+  padding-left: 60px;
+  padding-right: 60px;
+  border: solid 1px #E8E8EC;
+  
+}
+
+div.midsecbox > table > tbody > tr > td > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: gray;
+}
+div.midsecbox > table > tbody > tr > td > p {
+  text-align: center;
+  font-family: irankeywan;
+  font-size: 14px;
+}
+div.midsecbox > table > tbody > tr > td:hover{
+
+   cursor: pointer; 
+   
+  }
+

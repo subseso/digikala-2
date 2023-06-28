@@ -1,0 +1,14 @@
+div.footend > div.footendimg {
+  width: var(--width);
+  height: 150px;
+  background-color: aqua;
+}
+div.footend > div.footendimg > img {
+  width: var(--width);
+  height: inherit;
+  object-fit: cover;
+}
+div.footend > div.footendimg > img:hover {
+    cursor: pointer;
+  }
+  

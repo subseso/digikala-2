@@ -1,0 +1,14 @@
+section > div.mid-section >div.midsecimg {
+  text-align: center;
+}
+
+section > div.mid-section > div.midsecimg > img {
+  width: 300px;
+  border: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+div.midsecimg >img:hover {
+  cursor: pointer;
+}

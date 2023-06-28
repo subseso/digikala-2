@@ -1,0 +1,36 @@
+div.mid-section > div.midsecpro {
+  width: var(--width);
+  height: 550px;
+  /* background-color: brown; */
+  margin-top: 10px;
+  padding-top: 10px;
+}
+div.midsecpro > h1 {
+  font-family: irankeywan;
+  text-align: center;
+}
+div.midsecpro > table {
+  margin-top: 30px;
+  margin-right: 50px;
+}
+div.midsecpro > table > tbody > tr {
+  height: 220px;
+  /* background-color: aqua; */
+}
+div.midsecpro > table > tbody > tr > td {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+div.midsecpro > table > tbody > tr > td > img {
+  width: 150px;
+  height: inherit;
+  /* background-color: aqua; */
+}
+div.midsecpro > table > tbody > tr > td > p {
+  font-family: irankeywan;
+  text-align: center;
+  font-size: 12px;
+}
+div.midsecpro > table > tbody > tr > td > img:hover {
+  cursor: pointer;
+}

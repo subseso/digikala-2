@@ -1,0 +1,13 @@
+div.mid-section>div.midsecban>img{
+
+width: 1300px;
+display: block;
+padding-top: 3px;
+margin: 0 auto;
+
+}
+div.midsecban>img:hover{
+
+cursor: pointer;
+
+}

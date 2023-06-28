@@ -1,0 +1,9 @@
+div.headban {
+  width: var(--width);
+  height: 60px;
+}
+div.headban > img {
+  width: var(--width);
+  height: inherit;
+  object-fit: cover;
+}

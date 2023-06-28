@@ -1,0 +1,10 @@
+div.midsecban-4 > img {
+    width: 1300px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+  }
+  div.midsecban-4 > img:hover {
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,19 @@
+div.headbar > div.headlogo {
+  width: 150px;
+  height: inherit;
+  margin-left: auto;
+  float: right;
+  
+}
+div.headlogo > svg {
+  width: 120px;
+  height: inherit;
+  margin: auto auto;
+  display: block;
+}
+div.headlogo>svg:hover{
+
+cursor: pointer;
+
+
+}

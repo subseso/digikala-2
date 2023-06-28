@@ -1,0 +1,19 @@
+@import url(./slider-css/sliderset.css);
+@import url(./prosec-css/prosecset.css);
+@import url(./secswiper-css/secswiper.css);
+@import url(./mid-section/midsecset.css);
+@import url(./end-section/endsecset.css);
+
+
+main > section {
+  width: var(--width);
+  
+  /* background-color: black; */
+  margin-top: 35px;
+  z-index: 1;
+}
+main > section > hr {
+  border: 1px solid #d5d5d5;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}

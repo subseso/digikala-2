@@ -1,0 +1,12 @@
+div.midsecban-3 {
+  text-align: center;
+}
+
+div.midsecban-3 > img {
+  width: 1300px;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+div.midsecban-3 > img:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+div.headbar > div.headlogin {
+  width: 230px;
+  height: inherit;
+  /* margin-right: 50px; */
+  display: inline-block;
+  margin-right: 35px;
+}
+div.loginbuttom {
+  width: 135px;
+  height: inherit;
+  display: inline-block;
+}
+div.loginbuttom > p {
+  text-align: center;
+  margin-top: 23px;
+  font-family: irankeywan;
+  color: black;
+  font-size: 13px;
+  border: 1px solid #e0e0e6;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+div.loginbuttom > p > i {
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+div.carticon {
+  width: 60px;
+  height: 80px;
+  margin-right: auto;
+  display: block;
+  float: left;
+}
+div.carticon > i {
+  margin-top: 30px;
+  font-size: 20px;
+  color: black;
+}

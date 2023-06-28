@@ -1,0 +1,12 @@
+@import url(./headban-css/headban.css);
+@import url(./headerbar-css/headbarset.css);
+@import url(./headmenu-css/menuset.css);
+@import url(./headpro-css/headproset.css);
+
+main > header {
+  width: var(--width);
+  height: 300px;
+  /* background-color: aqua; */
+  padding: 0;
+  z-index: 1;
+}

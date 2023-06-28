@@ -1,0 +1,27 @@
+div.prosec > div.prosec-2 {
+  width: 130px;
+  height: inherit;
+  /* background-color: white; */
+  display: inline-block;
+  /* margin-right: 20px; */
+  margin-left: 25px;
+  vertical-align: center;
+}
+div.prosec-2 > img {
+  width: 55px;
+  height: 55px;
+  margin-top: 33px;
+  text-align: center;
+}
+div.prosec-2 > p {
+  text-align: center;
+  padding-top: 5px;
+  font-family: irankeywan;
+  font-size: 11px;
+}
+div.prosec-2>img:hover{
+
+cursor: pointer;
+
+
+}

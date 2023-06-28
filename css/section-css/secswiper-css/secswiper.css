@@ -1,0 +1,57 @@
+section > div.secswiper {
+  width: 1300px;
+  height: 290px;
+  background-color: #ef394e;
+  display: flex;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+section > div.secswiper > img {
+  border-radius: 15px;
+}
+section > div.secswiper > img:hover {
+  cursor: pointer;
+}
+.swiper2 {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.mySwiper2 > div.swiper-wrapper > div.swiper-slide > div.slidesec {
+  width: 185px;
+  height: 250px;
+  background-color: white;
+  display: inline-block;
+  margin-top: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+div.mySwiper2 > div.swiper-wrapper > div.swiper-slide > div.slidesec:hover {
+
+  cursor: pointer;
+
+}
+
+div.mySwiper2 > div.swiper-wrapper > div.swiper-slide > div.slidesec > img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}

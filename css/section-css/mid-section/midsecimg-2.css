@@ -1,0 +1,11 @@
+div.midsecimg2 {
+  width: var(--width);
+  height: 260px;
+  text-align: center;
+}
+div.midsecimg2 > img {
+  width: auto;
+  height: inherit;
+  margin-left: 20px;
+  border-radius: 20px;
+}

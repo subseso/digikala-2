@@ -1,0 +1,22 @@
+@import url(./cssset.css);
+@import url(./header-css/headset.css);
+@import url(./section-css/sectionset.css);
+@import url(./footer-css/footerset.css);
+
+
+
+@font-face {
+  font-family: irankeywan;
+  src: url(/fonts/irankeywan/IRANYekanWeb-Bold.eot);
+  src: url(/fonts/irankeywan/IRANYekanWeb-Bold.ttf);
+  src: url(/fonts/irankeywan/IRANYekanWeb-Bold.woff);
+  src: url(/fonts/irankeywan/IRANYekanWeb-Bold.woff2);
+}
+
+@font-face {
+  font-family: shabnam;
+  src: url(/fonts/shabnam/Shabnam-Medium.eot);
+  src: url(/fonts/shabnam/Shabnam-Medium.ttf);
+  src: url(/fonts/shabnam/Shabnam-Medium.woff);
+  src: url(/fonts/shabnam/Shabnam-Medium.woff2);
+}

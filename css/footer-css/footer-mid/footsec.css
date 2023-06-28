@@ -1,0 +1,98 @@
+div.footmid > div.footsec {
+  width: var(--width);
+  height: 320px;
+  /* background-color: aquamarine; */
+  font-family: irankeywan;
+}
+div.footmid > div.footsec > div.footlist {
+  width: 1100px;
+  height: inherit;
+  /* background-color: burlywood; */
+  display: inline-block;
+  vertical-align: top;
+}
+div.footmid > div.footsec > div.footbar {
+  width: 400px;
+  height: inherit;
+  /* background-color: mediumpurple; */
+  display: inline-block;
+}
+div.footmid > div.footsec > div.footlist > div.listsec {
+  width: 360px;
+  height: inherit;
+  /* background-color: aqua; */
+  display: inline-block;
+  vertical-align: top;
+  line-height: 30px;
+  padding-right: 10px;
+}
+div.footmid > div.footsec > div.footlist > div.listsec > p {
+  font-size: 16px;
+}
+div.footmid > div.footsec > div.footlist > div.listsec > div.sublist {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #76799e;
+}
+div.footmid > div.footsec > div.footlist > div.listsec > div.sublist:hover {
+  cursor: pointer;
+}
+
+div.footmid > div.footsec > div.footbar > div.footbartext {
+  width: inherit;
+  height: 50px;
+  /* background-color: green; */
+  padding-top: 15px;
+  padding-right: 20px;
+}
+div.footmid > div.footsec > div.footbar > div.footbartext > p {
+  font-size: 16px;
+}
+div.footmid > div.footsec > div.footbar > div.footbaricons {
+  width: inherit;
+  height: 50px;
+  /* background-color: yellow; */
+  text-align: center;
+  padding-right: 30px;
+  padding-top: 5px;
+}
+div.footmid > div.footsec > div.footbar > div.footbaricons > i {
+  font-size: 35px;
+  margin-left: 35px;
+  color: #9e9fb1;
+}
+div.footmid > div.footsec > div.footbar > div.footbaricons:hover {
+  cursor: pointer;
+}
+div.footmid > div.footsec > div.footbar > div.footbarlogin {
+  width: inherit;
+  height: 220px;
+  /* background-color: cornflowerblue; */
+  text-align: center;
+  padding-top: 40px;
+}
+div.footmid > div.footsec > div.footbar > div.footbarlogin > p {
+  font-size: 17px;
+}
+div.footbar > div.footbarlogin > input[type="email"] {
+  width: 250px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: irankeywan;
+  font-size: 15px;
+  background-color: #f1f2f4;
+  padding-right: 20px;
+  outline: none;
+  border: 0;
+}
+div.footbar > div.footbarlogin > button {
+  width: 50px;
+  height: 50px;
+  font-family: irankeywan;
+  background-color: #EF4056;
+  color: white;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+}

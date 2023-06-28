@@ -1,0 +1,14 @@
+footer > div.footend > div.footendtext {
+  width: 800px;
+  height: 20px;
+  /* background-color: aqua; */
+  margin: 0 auto;
+  padding-bottom: 40px;
+ 
+}
+div.footend > div.footendtext > p {
+  font-family: irankeywan;
+  font-size: 11px;
+  color: #838697;
+  text-align: center;
+}

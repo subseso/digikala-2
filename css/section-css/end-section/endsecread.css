@@ -1,0 +1,87 @@
+section > div.end-section > div.endsecread {
+  width: 1320px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  /* background-color: yellow; */
+  font-family: irankeywan;
+}
+
+section > div.end-section > div.endsecread > div.endsecreadtext {
+  width: inherit;
+  height: 40px;
+  display: flex;
+  padding-top: 5px;
+  /* background-color: green; */
+}
+section > div.end-section > div.endsecread > div.endsecreadtext > p {
+  width: 1100px;
+  height: 40px;
+  display: flex;
+  /* background-color: green; */
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 17px;
+}
+section > div.end-section > div.endsecread > div.endsecreadtext > a {
+  text-decoration: none;
+  color: #19bfd3;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+section > div.end-section > div.endsecread > div.endsecinfo-1 {
+  width: inherit;
+  height: 280px;
+  /* background-color: red; */
+  margin-top: 20px;
+  text-align: center;
+}
+section
+  > div.end-section
+  > div.endsecread
+  > div.endsecinfo-1
+  > div.endsecinfo-2 {
+  width: 320px;
+  height: inherit;
+  /* background-color: red; */
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 3px;
+  /* padding-top: 10px; */
+  vertical-align: top;
+  border-radius: 20px;
+  border: 1px solid var(--graycolor);
+}
+section
+  > div.end-section
+  > div.endsecread
+  > div.endsecinfo-1
+  > div.endsecinfo-2
+  > img {
+  width: auto;
+  display: inline-block;
+  height: 200px;
+}
+section
+  > div.end-section
+  > div.endsecread
+  > div.endsecinfo-1
+  > div.endsecinfo-2
+  > p {
+  width: auto;
+  display: inline-block;
+  font-family: shabnam;
+  text-align: right;
+  font-size: 13px;
+  line-height: 23px;
+  height: 100px;
+  padding-top: 10px;
+  /* padding-bottom: 10px; */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+div.endsecinfo-1 > div.endsecinfo-2:hover {
+  cursor: pointer;
+}

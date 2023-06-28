@@ -1,0 +1,13 @@
+div.footmid > div.footmidban {
+  width: 1500px;
+  height: 80px;
+  background-color: black;
+  margin: 0 auto;
+}
+div.footmid > div.footmidban > img {
+  width: inherit;
+  height: auto;
+}
+div.footmid > div.footmidban > img:hover {
+  cursor: pointer;
+}

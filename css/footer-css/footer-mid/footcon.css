@@ -1,0 +1,20 @@
+main > footer > div.footmid > div.footcon-1 {
+  width: var(--width);
+  height: 130px;
+  text-align: center;
+  padding-right: 100px;
+  font-family: irankeywan;
+  margin-top: 10px;
+}
+div.footmid > div.footcon-1 > div.footcon-2 {
+  width: 160px;
+  height: inherit;
+  display: inline-block;
+  margin-left: 110px;
+  font-size: 12px;
+  vertical-align: top;
+  padding-top: 12px;
+}
+div.footmid > div.footcon-1 > div.footcon-2:hover {
+  cursor: pointer;
+}

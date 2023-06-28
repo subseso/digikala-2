@@ -1,0 +1,11 @@
+@import url(./prosecbut.css);
+
+section>div.prosec{
+
+width: var(--width);
+height: 140px;
+/* background-color: blue; */
+
+text-align: center;
+
+}

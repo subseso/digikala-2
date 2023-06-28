@@ -1,0 +1,8 @@
+@import url(./headlogo.css);
+@import url(./headseach.css);
+@import url(./headlogin.css);
+
+div.headbar {
+  width: var(--width);
+  height: 70px;
+}

@@ -1,0 +1,8 @@
+@import url(./footer-top/footertopset.css);
+@import url(./footer-mid/footmid.css);
+@import url(./footer-end/footendset.css);
+
+main > footer {
+  width: var(--width);
+  height: 1090px;
+}
