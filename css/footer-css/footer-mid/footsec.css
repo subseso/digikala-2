@@ -24,7 +24,7 @@ div.footmid > div.footsec > div.footlist > div.listsec {
   display: inline-block;
   vertical-align: top;
   line-height: 30px;
-  padding-right: 10px;
+  /* padding-right: 10px; */
 }
 div.footmid > div.footsec > div.footlist > div.listsec > p {
   font-size: 16px;

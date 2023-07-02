@@ -6,9 +6,14 @@
 @font-face {
   font-family: irankeywan;
   src: url(/fonts/irankeywan/IRANYekanWeb-Bold.eot);
+  src: url(/fonts/irankeywan/IRANYekanWeb-Bold.ttf);
+  src: url(/fonts/irankeywan/IRANYekanWeb-Bold.woff);
+  src: url(/fonts/irankeywan/IRANYekanWeb-Bold.woff2);
 }
 @font-face {
   font-family: shabnam;
-
   src: url(/fonts/shabnam/Shabnam-Medium.eot);
+  src: url(/fonts/shabnam/Shabnam-Medium.ttf);
+  src: url(/fonts/shabnam/Shabnam-Medium.woff);
+  src: url(/fonts/shabnam/Shabnam-Medium.woff2);
 }
